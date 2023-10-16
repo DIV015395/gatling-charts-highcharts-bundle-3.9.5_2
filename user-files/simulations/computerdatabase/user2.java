@@ -4,19 +4,27 @@ import io.gatling.javaapi.core.ScenarioBuilder;
 import io.gatling.javaapi.core.Simulation;
 import io.gatling.javaapi.http.HttpProtocolBuilder;
 
+import java.util.ResourceBundle;
+
 import static io.gatling.javaapi.core.CoreDsl.atOnceUsers;
 import static io.gatling.javaapi.core.CoreDsl.scenario;
 import static io.gatling.javaapi.http.HttpDsl.http;
 import static io.gatling.javaapi.http.HttpDsl.ws;
 
 public class user2 extends Simulation {
+    String baseUrl = "https://chatqa.clovedental.in";
+    String wsBaseUrl = "wss://chatqa.clovedental.in";
+    String acceptHeader = "text/plain, */*; q=0.01";
+
+    ResourceBundle resourceBundleLoginToken = ResourceBundle.getBundle("SecWebSocketKey");
+    private String doctorUser = resourceBundleLoginToken.getString("user1");
     HttpProtocolBuilder httpProtocol = http
-            .baseUrl("https://chatqa.clovedental.in")
-            .wsBaseUrl("wss://chatqa.clovedental.in") // WebSocket URL
-            .acceptHeader("text/plain, */*; q=0.01")
+            .baseUrl(baseUrl)
+            .wsBaseUrl(wsBaseUrl) // WebSocket URL
+            .acceptHeader(acceptHeader)
             .header("Sec-WebSocket-Version", "13")
             .header("Sec-WebSocket-Extensions", "permessage-deflate; client_max_window_bits; server_max_window_bits=15")
-            .header("Sec-WebSocket-Key", "amxpZGVmbHh5bGljeXl2aQ==")
+            .header("Sec-WebSocket-Key", doctorUser)
             .header("current_chat_id", "0")
             .header("userId", "7")
             .header("Connection", "Upgrade")
