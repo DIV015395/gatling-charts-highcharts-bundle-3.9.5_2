@@ -17,11 +17,9 @@ import java.util.concurrent.ThreadLocalRandom;
  */
 public class ComputerDatabaseSimulation extends Simulation
 {
-    public void socket() {
-        for (int i = 0; i < 7; i++) {
 
 
-            HttpProtocolBuilder httpProtocol = http
+     HttpProtocolBuilder httpProtocol = http
                     .baseUrl("https://chatqa.clovedental.in")
                     .wsBaseUrl("wss://chatqa.clovedental.in") // WebSocket URL
                     .acceptHeader("text/plain, */*; q=0.01")
@@ -81,5 +79,5 @@ public class ComputerDatabaseSimulation extends Simulation
 //        setUp(scn.injectOpen(atOnceUsers(1)),scn1.injectOpen(atOnceUsers(1)).protocols(httpProtocol));
             }
         }
-    }
-}
+
+
