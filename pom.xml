@@ -13,5 +13,47 @@
         <maven.compiler.target>15</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+    <dependencies>
+    <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>3.8.1</version>
+        <scope>test</scope>
+    </dependency>
+    <dependency>
+        <groupId>io.gatling</groupId>
+        <artifactId>gatling-app</artifactId>
+        <version>3.6.1</version> <!-- Replace with the latest version -->
+    </dependency>
+    <dependency>
+        <groupId>io.gatling</groupId>
+        <artifactId>gatling-http</artifactId>
+        <version>3.6.1</version> <!-- Replace with the latest version -->
+    </dependency>
+    <dependency>
+        <groupId>io.gatling</groupId>
+        <artifactId>gatling-jdbc</artifactId>
+        <version>3.6.1</version> <!-- Replace with the latest version -->
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.jpos.ee/jposee-client-simulator -->
+    <!-- https://mvnrepository.com/artifact/io.gatling/gatling-core -->
+    <dependency>
+        <groupId>io.gatling</groupId>
+        <artifactId>gatling-core</artifactId>
+        <version>3.9.5</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/io.gatling/gatling-core-java -->
+    <dependency>
+        <groupId>io.gatling</groupId>
+        <artifactId>gatling-core-java</artifactId>
+        <version>3.9.5</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/io.gatling/gatling-http-java -->
+    <dependency>
+        <groupId>io.gatling</groupId>
+        <artifactId>gatling-http-java</artifactId>
+        <version>3.9.5</version>
+    </dependency>
+    </dependencies>
     
 </project>
