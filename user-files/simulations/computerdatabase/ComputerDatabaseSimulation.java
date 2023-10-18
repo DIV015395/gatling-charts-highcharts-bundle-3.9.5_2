@@ -77,7 +77,7 @@ public class ComputerDatabaseSimulation extends Simulation
                             ws("WebSocket Connect")
                                     .connect("/wss2/socket")
                     )
-                    .pause(60); // Adjust as needed for your load testing scenario
+                    .pause(120); // Adjust as needed for your load testing scenario
 //                    .exec(ws("WebSocket Close").close());
 
     ScenarioBuilder scn1 = scenario("user 2")
@@ -85,14 +85,14 @@ public class ComputerDatabaseSimulation extends Simulation
                     ws("WebSocket Connect")
                             .connect("/wss2/socket")
             )
-            .pause(60); // Adjust as needed for your load testing scenario
+            .pause(120); // Adjust as needed for your load testing scenario
 //                    .exec(ws("WebSocket Close").close());
 ScenarioBuilder scn2 = scenario("user 3")
         .exec(
                 ws("WebSocket Connect")
                         .connect("/wss2/socket")
         )
-        .pause(60); // Adjust as needed for your load testing scenario
+        .pause(120); // Adjust as needed for your load testing scenario
 //                    .exec(ws("WebSocket Close").close());
 
             {
