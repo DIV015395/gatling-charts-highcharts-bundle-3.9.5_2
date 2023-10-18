@@ -17,8 +17,6 @@ import java.util.concurrent.ThreadLocalRandom;
  */
 public class ComputerDatabaseSimulation extends Simulation
 {
-
-
      HttpProtocolBuilder httpProtocol = http
                     .baseUrl("https://chatqa.clovedental.in")
                     .wsBaseUrl("wss://chatqa.clovedental.in") // WebSocket URL
@@ -59,14 +57,14 @@ public class ComputerDatabaseSimulation extends Simulation
                             ws("WebSocket Connect")
                                     .connect("/wss2/socket")
                     )
-                    .pause(100); // Adjust as needed for your load testing scenario
+                    .pause(10); // Adjust as needed for your load testing scenario
 //                    .exec(ws("WebSocket Close").close());
             ScenarioBuilder scn1 = scenario("WebSocket Load Test 2")
                     .exec(
                             ws("WebSocket Connect")
                                     .connect("/wss2/socket")
                     )
-                    .pause(100); // Adjust as needed for your load testing scenario
+                    .pause(10); // Adjust as needed for your load testing scenario
 //            .exec(ws("WebSocket Close").close());
 
             {
