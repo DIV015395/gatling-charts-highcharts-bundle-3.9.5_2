@@ -34,6 +34,23 @@ public class ComputerDatabaseSimulation extends Simulation
                     .header("Host", "chatqa.clovedental.in:443")
                     .header("Origin", "wss://chatqa.clovedental.in")
                     .header("platform", "iOS");
+    HttpProtocolBuilder httpProtocol1 = http
+            .baseUrl("https://chatqa.clovedental.in")
+            .wsBaseUrl("wss://chatqa.clovedental.in") // WebSocket URL
+            .acceptHeader("text/plain, */*; q=0.01")
+            .header("Sec-WebSocket-Version", "13")
+            .header("Sec-WebSocket-Extensions", "permessage-deflate; client_max_window_bits; server_max_window_bits=15")
+            .header("Sec-WebSocket-Key", "amxpZgVmbHh5bGljeXl2aQ==")
+            .header("current_chat_id", "0")
+            .header("userId", "12")
+            .header("Connection", "Upgrade")
+            .header("authToken", "DOs7Obj9VySGBQeizido4SB%2Bvab36ffTiwMNBWH4%2FHE%3D")
+            .header("deviceId", "2")
+            .header("connected_in", "2")
+            .header("Upgrade", "websocket")
+            .header("Host", "chatqa.clovedental.in:443")
+            .header("Origin", "wss://chatqa.clovedental.in")
+            .header("platform", "iOS");
 //
             ScenarioBuilder scn = scenario("WebSocket Load Test")
                     .exec(
@@ -46,7 +63,8 @@ public class ComputerDatabaseSimulation extends Simulation
             {
 
                 setUp(
-                        scn.injectOpen(atOnceUsers(1)).protocols(httpProtocol)
+                        scn.injectOpen(atOnceUsers(1)).protocols(httpProtocol),
+                        scn.injectOpen(atOnceUsers(1)).protocols(httpProtocol1)
                 );
 //        setUp(scn.injectOpen(atOnceUsers(1))).protocols(httpProtocol);
 //        setUp(scn1.injectOpen(atOnceUsers(1))).protocols(httpProtocol1);
