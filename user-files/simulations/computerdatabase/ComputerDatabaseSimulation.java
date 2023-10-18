@@ -27,7 +27,7 @@ public class ComputerDatabaseSimulation extends Simulation
                     .header("Sec-WebSocket-Extensions", "permessage-deflate; client_max_window_bits; server_max_window_bits=15")
                     .header("Sec-WebSocket-Key", "amxpZgVmbHh5bGljeXl2aQ==")
                     .header("current_chat_id", "0")
-                    .header("userId", "12")
+                    .header("userId", "4")
                     .header("Connection", "Upgrade")
                     .header("authToken", "DOs7Obj9VySGBQeizido4SB%2Bvab36ffTiwMNBWH4%2FHE%3D")
                     .header("deviceId", "93723B6")
@@ -44,10 +44,10 @@ public class ComputerDatabaseSimulation extends Simulation
                     .header("Sec-WebSocket-Extensions", "permessage-deflate; client_max_window_bits; server_max_window_bits=15")
                     .header("Sec-WebSocket-Key", "amxpZGVmbHh5bGljeXl2aQ==")
                     .header("current_chat_id", "0")
-                    .header("userId", "7")
+                    .header("userId", "5")
                     .header("Connection", "Upgrade")
-                    .header("authToken", "RDZgQ1v6bZ2LyQvy5mObo9PtnrB1fICp7BWAOIaD6a4%3D")
-                    .header("deviceId", "93723B60-19AE-4B82-831F-9DD9A4899351-1696586186.616768-12EFBD82-6609-4FBE-A588-B5A75B8C2779")
+                    .header("authToken", "W3WNF%2BGgnXSGZV%2Bp8uJFKLzVqk3dJs5s2cCpjVe0Yzk%3D")
+                    .header("deviceId", "93723B61")
                     .header("connected_in", "1")
                     .header("Upgrade", "websocket")
                     .header("Host", "chatqa.clovedental.in:443")
@@ -59,20 +59,21 @@ public class ComputerDatabaseSimulation extends Simulation
                             ws("WebSocket Connect")
                                     .connect("/wss2/socket")
                     )
-                    .pause(1000) // Adjust as needed for your load testing scenario
-                    .exec(ws("WebSocket Close").close());
-//            ScenarioBuilder scn1 = scenario("WebSocket Load Test 2")
-//                    .exec(
-//                            ws("WebSocket Connect")
-//                                    .connect("/wss2/socket")
-//                    )
-//                    .pause(10000); // Adjust as needed for your load testing scenario
-////            .exec(ws("WebSocket Close").close());
+                    .pause(1000); // Adjust as needed for your load testing scenario
+//                    .exec(ws("WebSocket Close").close());
+            ScenarioBuilder scn1 = scenario("WebSocket Load Test 2")
+                    .exec(
+                            ws("WebSocket Connect")
+                                    .connect("/wss2/socket")
+                    )
+                    .pause(10000); // Adjust as needed for your load testing scenario
+//            .exec(ws("WebSocket Close").close());
 
             {
 
                 setUp(
-                        scn.injectOpen(atOnceUsers(1)).protocols(httpProtocol)
+                        scn.injectOpen(atOnceUsers(1)).protocols(httpProtocol),
+                        scn1.injectOpen(atOnceUsers(1)).protocols(httpProtocol1)
                 );
 //        setUp(scn.injectOpen(atOnceUsers(1))).protocols(httpProtocol);
 //        setUp(scn1.injectOpen(atOnceUsers(1))).protocols(httpProtocol1);
