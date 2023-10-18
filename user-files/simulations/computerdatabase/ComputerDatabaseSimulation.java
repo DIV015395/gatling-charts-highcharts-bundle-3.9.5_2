@@ -25,7 +25,7 @@ public class ComputerDatabaseSimulation extends Simulation
                     .acceptHeader("text/plain, */*; q=0.01")
                     .header("Sec-WebSocket-Version", "13")
                     .header("Sec-WebSocket-Extensions", "permessage-deflate; client_max_window_bits; server_max_window_bits=15")
-                    .header("Sec-WebSocket-Key", "amxpZGVmbHh5bGljeXl2aQ==")
+                    .header("Sec-WebSocket-Key", "amxpZgVmbHh5bGljeXl2aQ==")
                     .header("current_chat_id", "0")
                     .header("userId", "12")
                     .header("Connection", "Upgrade")
