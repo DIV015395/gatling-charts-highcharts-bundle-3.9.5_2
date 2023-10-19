@@ -11,13 +11,10 @@ public class ComputerDatabaseSimulation extends Simulation
     ResourceBundle baseDataBundle = ResourceBundle.getBundle("basedata");
     ResourceBundle deviceIdBundle = ResourceBundle.getBundle("deviceid");
     ResourceBundle userIdBundle = ResourceBundle.getBundle("userid");
+    String baseData0 = baseDataBundle.getString("basedata0");
+    String deviceId0 = deviceIdBundle.getString("deviceid0");
+    String userId0 = userIdBundle.getString("userid0");
 
-    String baseDataKey0 = "basedata" + 0;
-    String deviceIdKey0 = "deviceid" + 0;
-    String userIdKey0 = "userid" + 0;
-    String baseData0 = baseDataBundle.getString(baseDataKey0);
-    String deviceId0 = deviceIdBundle.getString(deviceIdKey0);
-    String userId0 = userIdBundle.getString(userIdKey0);
      HttpProtocolBuilder httpProtocol0 = http
                     .baseUrl("https://chatqa.clovedental.in")
                     .wsBaseUrl("wss://chatqa.clovedental.in") // WebSocket URL
@@ -36,12 +33,9 @@ public class ComputerDatabaseSimulation extends Simulation
                     .header("Origin", "wss://chatqa.clovedental.in")
                     .header("platform", "iOS");
 
-    String baseDataKey1 = "basedata" + 1;
-    String deviceIdKey1 = "deviceid" + 1;
-    String userIdKey1 = "userid" + 1;
-    String baseData1 = baseDataBundle.getString(baseDataKey1);
-    String deviceId1 = deviceIdBundle.getString(deviceIdKey1);
-    String userId1 = userIdBundle.getString(userIdKey1);
+    String baseData1 = baseDataBundle.getString("basedata1");
+    String deviceId1 = deviceIdBundle.getString("deviceid1");
+    String userId1 = userIdBundle.getString("userid1");
     HttpProtocolBuilder httpProtocol1 = http
             .baseUrl("https://chatqa.clovedental.in")
             .wsBaseUrl("wss://chatqa.clovedental.in") // WebSocket URL
@@ -60,12 +54,9 @@ public class ComputerDatabaseSimulation extends Simulation
             .header("Origin", "wss://chatqa.clovedental.in")
             .header("platform", "iOS");
 
-    String baseDataKey2 = "basedata" + 2;
-    String deviceIdKey2 = "deviceid" + 2;
-    String userIdKey2 = "userid" + 2;
-    String baseData2 = baseDataBundle.getString(baseDataKey2);
-    String deviceId2 = deviceIdBundle.getString(deviceIdKey2);
-    String userId2 = userIdBundle.getString(userIdKey2);
+    String baseData2 = baseDataBundle.getString("basedata2");
+    String deviceId2 = deviceIdBundle.getString("deviceid2");
+    String userId2 = userIdBundle.getString("userid2");
 
     HttpProtocolBuilder httpProtocol2 = http
             .baseUrl("https://chatqa.clovedental.in")
@@ -85,12 +76,9 @@ public class ComputerDatabaseSimulation extends Simulation
             .header("Origin", "wss://chatqa.clovedental.in")
             .header("platform", "iOS");
 
-    String baseDataKey3 = "basedata" + 3;
-    String deviceIdKey3 = "deviceid" + 3;
-    String userIdKey3 = "userid" + 3;
-    String baseData3 = baseDataBundle.getString(baseDataKey3);
-    String deviceId3 = deviceIdBundle.getString(deviceIdKey3);
-    String userId3 = userIdBundle.getString(userIdKey3);
+    String baseData3 = baseDataBundle.getString("basedata3");
+    String deviceId3 = deviceIdBundle.getString("deviceid3");
+    String userId3 = userIdBundle.getString("userid3");
 
     HttpProtocolBuilder httpProtocol3 = http
             .baseUrl("https://chatqa.clovedental.in")
@@ -109,12 +97,9 @@ public class ComputerDatabaseSimulation extends Simulation
             .header("Host", "chatqa.clovedental.in:443")
             .header("Origin", "wss://chatqa.clovedental.in")
             .header("platform", "iOS");
-    String baseDataKey4 = "basedata" + 4;
-    String deviceIdKey4 = "deviceid" + 4;
-    String userIdKey4 = "userid" + 4;
-    String baseData4 = baseDataBundle.getString(baseDataKey4);
-    String deviceId4 = deviceIdBundle.getString(deviceIdKey4);
-    String userId4 = userIdBundle.getString(userIdKey4);
+    String baseData4 = baseDataBundle.getString("basedata4");
+    String deviceId4 = deviceIdBundle.getString("deviceid4");
+    String userId4 = userIdBundle.getString("userid4");
     HttpProtocolBuilder httpProtocol4 = http
             .baseUrl("https://chatqa.clovedental.in")
             .wsBaseUrl("wss://chatqa.clovedental.in") // WebSocket URL
@@ -132,12 +117,9 @@ public class ComputerDatabaseSimulation extends Simulation
             .header("Host", "chatqa.clovedental.in:443")
             .header("Origin", "wss://chatqa.clovedental.in")
             .header("platform", "iOS");
-    String baseDataKey5 = "basedata" + 5;
-    String deviceIdKey5 = "deviceid" + 5;
-    String userIdKey5 = "userid" + 5;
-    String baseData5 = baseDataBundle.getString(baseDataKey5);
-    String deviceId5 = deviceIdBundle.getString(deviceIdKey5);
-    String userId5 = userIdBundle.getString(userIdKey5);
+    String baseData5 = baseDataBundle.getString("basedata5");
+    String deviceId5 = deviceIdBundle.getString("deviceid5");
+    String userId5 = userIdBundle.getString("userid5");
 
     HttpProtocolBuilder httpProtocol5 = http
             .baseUrl("https://chatqa.clovedental.in")

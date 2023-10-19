@@ -74,7 +74,8 @@ public class user2 extends Simulation {
     {
 
         setUp(
-                scn.injectOpen(atOnceUsers(1)).protocols(httpProtocol)
+                scn.injectOpen(atOnceUsers(1)).protocols(httpProtocol),
+                scn1.injectOpen(atOnceUsers(1)).protocols(httpProtocol1)
         );
 //        setUp(scn.injectOpen(atOnceUsers(1))).protocols(httpProtocol);
 //        setUp(scn1.injectOpen(atOnceUsers(1))).protocols(httpProtocol1);
