@@ -4,8 +4,20 @@ import static io.gatling.javaapi.http.HttpDsl.*;
 import io.gatling.javaapi.core.*;
 import io.gatling.javaapi.http.*;
 
+import java.util.ResourceBundle;
+
 public class ComputerDatabaseSimulation extends Simulation
 {
+    ResourceBundle baseDataBundle = ResourceBundle.getBundle("basedata");
+    ResourceBundle deviceIdBundle = ResourceBundle.getBundle("deviceid");
+    ResourceBundle userIdBundle = ResourceBundle.getBundle("userid");
+
+    String baseDataKey0 = "basedata" + 0;
+    String deviceIdKey0 = "deviceid" + 0;
+    String userIdKey0 = "userid" + 0;
+    String baseData0 = baseDataBundle.getString(baseDataKey0);
+    String deviceId0 = deviceIdBundle.getString(deviceIdKey0);
+    String userId0 = userIdBundle.getString(userIdKey0);
      HttpProtocolBuilder httpProtocol0 = http
                     .baseUrl("https://chatqa.clovedental.in")
                     .wsBaseUrl("wss://chatqa.clovedental.in") // WebSocket URL
@@ -14,15 +26,22 @@ public class ComputerDatabaseSimulation extends Simulation
                     .header("Sec-WebSocket-Extensions", "permessage-deflate; client_max_window_bits; server_max_window_bits=15")
                     .header("Sec-WebSocket-Key", "amxpZgVmbHh5bGljeXl2aQ==")
                     .header("current_chat_id", "0")
-                    .header("userId", "14")
+                    .header("userId", userId0)
                     .header("Connection", "Upgrade")
-                    .header("authToken", "W3WNF%2BGgnXSGZV%2Bp8uJFKLzVqk3dJs5s2cCpjVe0Yzk%3D")
-                    .header("deviceId", "1")
+                    .header("authToken", baseData0)
+                    .header("deviceId", deviceId0)
                     .header("connected_in", "1")
                     .header("Upgrade", "websocket")
                     .header("Host", "chatqa.clovedental.in:443")
                     .header("Origin", "wss://chatqa.clovedental.in")
                     .header("platform", "iOS");
+
+    String baseDataKey1 = "basedata" + 1;
+    String deviceIdKey1 = "deviceid" + 1;
+    String userIdKey1 = "userid" + 1;
+    String baseData1 = baseDataBundle.getString(baseDataKey1);
+    String deviceId1 = deviceIdBundle.getString(deviceIdKey1);
+    String userId1 = userIdBundle.getString(userIdKey1);
     HttpProtocolBuilder httpProtocol1 = http
             .baseUrl("https://chatqa.clovedental.in")
             .wsBaseUrl("wss://chatqa.clovedental.in") // WebSocket URL
@@ -31,17 +50,22 @@ public class ComputerDatabaseSimulation extends Simulation
             .header("Sec-WebSocket-Extensions", "permessage-deflate; client_max_window_bits; server_max_window_bits=15")
             .header("Sec-WebSocket-Key", "amxpZgVmbHh5bGljeXl2aQ==")
             .header("current_chat_id", "0")
-            .header("userId", "12")
+            .header("userId", userId1)
             .header("Connection", "Upgrade")
-            .header("authToken", "DOs7Obj9VySGBQeizido4SB%2Bvab36ffTiwMNBWH4%2FHE%3D")
-            .header("deviceId", "2")
+            .header("authToken", baseData1)
+            .header("deviceId", deviceId1)
             .header("connected_in", "2")
             .header("Upgrade", "websocket")
             .header("Host", "chatqa.clovedental.in:443")
             .header("Origin", "wss://chatqa.clovedental.in")
             .header("platform", "iOS");
 
-
+    String baseDataKey2 = "basedata" + 2;
+    String deviceIdKey2 = "deviceid" + 2;
+    String userIdKey2 = "userid" + 2;
+    String baseData2 = baseDataBundle.getString(baseDataKey2);
+    String deviceId2 = deviceIdBundle.getString(deviceIdKey2);
+    String userId2 = userIdBundle.getString(userIdKey2);
 
     HttpProtocolBuilder httpProtocol2 = http
             .baseUrl("https://chatqa.clovedental.in")
@@ -51,17 +75,22 @@ public class ComputerDatabaseSimulation extends Simulation
             .header("Sec-WebSocket-Extensions", "permessage-deflate; client_max_window_bits; server_max_window_bits=15")
             .header("Sec-WebSocket-Key", "amxpZgVmbHh5bGljeXl2aQ==")
             .header("current_chat_id", "0")
-            .header("userId", "15")
+            .header("userId", userId2)
             .header("Connection", "Upgrade")
-            .header("authToken", "N4S0cYkVJOViUWa5Oqqa%2Bi5l%2FsJhZa7H4%2Fu5e5OgGow%3D")
-            .header("deviceId", "3")
+            .header("authToken", baseData2)
+            .header("deviceId", deviceId2)
             .header("connected_in", "2")
             .header("Upgrade", "websocket")
             .header("Host", "chatqa.clovedental.in:443")
             .header("Origin", "wss://chatqa.clovedental.in")
             .header("platform", "iOS");
 
-
+    String baseDataKey3 = "basedata" + 3;
+    String deviceIdKey3 = "deviceid" + 3;
+    String userIdKey3 = "userid" + 3;
+    String baseData3 = baseDataBundle.getString(baseDataKey3);
+    String deviceId3 = deviceIdBundle.getString(deviceIdKey3);
+    String userId3 = userIdBundle.getString(userIdKey3);
 
     HttpProtocolBuilder httpProtocol3 = http
             .baseUrl("https://chatqa.clovedental.in")
@@ -71,15 +100,21 @@ public class ComputerDatabaseSimulation extends Simulation
             .header("Sec-WebSocket-Extensions", "permessage-deflate; client_max_window_bits; server_max_window_bits=15")
             .header("Sec-WebSocket-Key", "amxpZgVmbHh5bGljeXl2aQ==")
             .header("current_chat_id", "0")
-            .header("userId", "14")
+            .header("userId", userId3)
             .header("Connection", "Upgrade")
-            .header("authToken", "W3WNF%2BGgnXSGZV%2Bp8uJFKLzVqk3dJs5s2cCpjVe0Yzk%3D")
-            .header("deviceId", "1")
+            .header("authToken", baseData3)
+            .header("deviceId", deviceId3)
             .header("connected_in", "1")
             .header("Upgrade", "websocket")
             .header("Host", "chatqa.clovedental.in:443")
             .header("Origin", "wss://chatqa.clovedental.in")
             .header("platform", "iOS");
+    String baseDataKey4 = "basedata" + 4;
+    String deviceIdKey4 = "deviceid" + 4;
+    String userIdKey4 = "userid" + 4;
+    String baseData4 = baseDataBundle.getString(baseDataKey4);
+    String deviceId4 = deviceIdBundle.getString(deviceIdKey4);
+    String userId4 = userIdBundle.getString(userIdKey4);
     HttpProtocolBuilder httpProtocol4 = http
             .baseUrl("https://chatqa.clovedental.in")
             .wsBaseUrl("wss://chatqa.clovedental.in") // WebSocket URL
@@ -88,17 +123,21 @@ public class ComputerDatabaseSimulation extends Simulation
             .header("Sec-WebSocket-Extensions", "permessage-deflate; client_max_window_bits; server_max_window_bits=15")
             .header("Sec-WebSocket-Key", "amxpZgVmbHh5bGljeXl2aQ==")
             .header("current_chat_id", "0")
-            .header("userId", "12")
+            .header("userId", userId4)
             .header("Connection", "Upgrade")
-            .header("authToken", "DOs7Obj9VySGBQeizido4SB%2Bvab36ffTiwMNBWH4%2FHE%3D")
-            .header("deviceId", "2")
+            .header("authToken", baseData4)
+            .header("deviceId", deviceId4)
             .header("connected_in", "2")
             .header("Upgrade", "websocket")
             .header("Host", "chatqa.clovedental.in:443")
             .header("Origin", "wss://chatqa.clovedental.in")
             .header("platform", "iOS");
-
-
+    String baseDataKey5 = "basedata" + 5;
+    String deviceIdKey5 = "deviceid" + 5;
+    String userIdKey5 = "userid" + 5;
+    String baseData5 = baseDataBundle.getString(baseDataKey5);
+    String deviceId5 = deviceIdBundle.getString(deviceIdKey5);
+    String userId5 = userIdBundle.getString(userIdKey5);
 
     HttpProtocolBuilder httpProtocol5 = http
             .baseUrl("https://chatqa.clovedental.in")
@@ -108,15 +147,22 @@ public class ComputerDatabaseSimulation extends Simulation
             .header("Sec-WebSocket-Extensions", "permessage-deflate; client_max_window_bits; server_max_window_bits=15")
             .header("Sec-WebSocket-Key", "amxpZgVmbHh5bGljeXl2aQ==")
             .header("current_chat_id", "0")
-            .header("userId", "15")
+            .header("userId", userId5)
             .header("Connection", "Upgrade")
-            .header("authToken", "N4S0cYkVJOViUWa5Oqqa%2Bi5l%2FsJhZa7H4%2Fu5e5OgGow%3D")
-            .header("deviceId", "3")
+            .header("authToken", baseData5)
+            .header("deviceId", deviceId5)
             .header("connected_in", "2")
             .header("Upgrade", "websocket")
             .header("Host", "chatqa.clovedental.in:443")
             .header("Origin", "wss://chatqa.clovedental.in")
             .header("platform", "iOS");
+
+    String baseDataKey6 = "basedata" + 6;
+    String deviceIdKey6 = "deviceid" + 6;
+    String userIdKey6 = "userid" + 6;
+    String baseData6 = baseDataBundle.getString(baseDataKey6);
+    String deviceId6 = deviceIdBundle.getString(deviceIdKey6);
+    String userId6 = userIdBundle.getString(userIdKey6);
     HttpProtocolBuilder httpProtocol6 = http
         .baseUrl("https://chatqa.clovedental.in")
         .wsBaseUrl("wss://chatqa.clovedental.in") // WebSocket URL
@@ -125,10 +171,10 @@ public class ComputerDatabaseSimulation extends Simulation
         .header("Sec-WebSocket-Extensions", "permessage-deflate; client_max_window_bits; server_max_window_bits=15")
         .header("Sec-WebSocket-Key", "amxpZgVmbHh5bGljeXl2aQ==")
         .header("current_chat_id", "0")
-        .header("userId", "14")
+        .header("userId", userId6)
         .header("Connection", "Upgrade")
-        .header("authToken", "W3WNF%2BGgnXSGZV%2Bp8uJFKLzVqk3dJs5s2cCpjVe0Yzk%3D")
-        .header("deviceId", "1")
+        .header("authToken", baseData6)
+        .header("deviceId", deviceId6)
         .header("connected_in", "1")
         .header("Upgrade", "websocket")
         .header("Host", "chatqa.clovedental.in:443")
@@ -1938,7 +1984,10 @@ public class ComputerDatabaseSimulation extends Simulation
                 setUp(
                         scn0.injectOpen(atOnceUsers(1)).protocols(httpProtocol0),
                         scn1.injectOpen(atOnceUsers(1)).protocols(httpProtocol1),
-                        scn2.injectOpen(atOnceUsers(1)).protocols(httpProtocol2)
+                        scn2.injectOpen(atOnceUsers(1)).protocols(httpProtocol2),
+                        scn3.injectOpen(atOnceUsers(1)).protocols(httpProtocol3),
+                        scn4.injectOpen(atOnceUsers(1)).protocols(httpProtocol4),
+                        scn5.injectOpen(atOnceUsers(1)).protocols(httpProtocol5)
                 );
             }
         }
