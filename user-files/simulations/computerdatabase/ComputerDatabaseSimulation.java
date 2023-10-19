@@ -1830,28 +1830,97 @@ public class ComputerDatabaseSimulation extends Simulation
             .header("Origin", "wss://chatqa.clovedental.in")
             .header("platform", "iOS");
 
-            ScenarioBuilder scn0 = scenario("user")
-                    .exec(
-                            ws("WebSocket Connect")
-                                    .connect("/wss2/socket")
-                    )
-                    .pause(120); // Adjust as needed for your load testing scenario
-//                    .exec(ws("WebSocket Close").close());
+  ScenarioBuilder scn0 = scenario("user").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+  ScenarioBuilder scn1 = scenario("user 2").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+   ScenarioBuilder scn2 = scenario("user 3").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
 
-    ScenarioBuilder scn1 = scenario("user 2")
-            .exec(
-                    ws("WebSocket Connect")
-                            .connect("/wss2/socket")
-            )
-            .pause(120); // Adjust as needed for your load testing scenario
-//                    .exec(ws("WebSocket Close").close());
-ScenarioBuilder scn2 = scenario("user 3")
-        .exec(
-                ws("WebSocket Connect")
-                        .connect("/wss2/socket")
-        )
-        .pause(120); // Adjust as needed for your load testing scenario
-//                    .exec(ws("WebSocket Close").close());
+    ScenarioBuilder scn3 = scenario("user3").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn4 = scenario("user4").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn5 = scenario("user5").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn6 = scenario("user6").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn7 = scenario("user7").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn8 = scenario("user8").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn9 = scenario("user9").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn10 = scenario("user10").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn11 = scenario("user11").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn12 = scenario("user12").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn13 = scenario("user13").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn14 = scenario("user14").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn15 = scenario("user15").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);ScenarioBuilder scn16 = scenario("user16").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn17 = scenario("user17").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn18 = scenario("user18").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn19 = scenario("user19").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn20 = scenario("user20").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn21 = scenario("user21").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn22 = scenario("user22").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);ScenarioBuilder scn23 = scenario("user23").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn24 = scenario("user24").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn25 = scenario("user25").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn26 = scenario("user26").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn27 = scenario("user27").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn28 = scenario("user28").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn29 = scenario("user29").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn30 = scenario("user30").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn31 = scenario("user31").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn32 = scenario("user32").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);ScenarioBuilder scn33 = scenario("user33").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn34 = scenario("user34").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn35 = scenario("user35").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn36 = scenario("user36").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn37 = scenario("user37").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn38 = scenario("user38").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);ScenarioBuilder scn39 = scenario("user39").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn40 = scenario("user40").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);ScenarioBuilder scn41 = scenario("user41").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn42 = scenario("user42").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn43 = scenario("user43").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn44 = scenario("user44").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn45 = scenario("user45").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn46 = scenario("user46").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn47 = scenario("user47").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn48 = scenario("user48").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);ScenarioBuilder scn49 = scenario("user49").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn50 = scenario("user50").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn51 = scenario("user51").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn52 = scenario("user52").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);ScenarioBuilder scn53 = scenario("user53").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn54 = scenario("user54").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn55 = scenario("user55").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn56 = scenario("user56").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn57 = scenario("user57").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn58 = scenario("user58").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn59 = scenario("user59").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn60 = scenario("user60").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn61 = scenario("user61").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn62 = scenario("user62").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn63 = scenario("user63").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn64 = scenario("user64").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn65 = scenario("user65").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn66 = scenario("user66").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn67 = scenario("user67").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn68 = scenario("user68").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn69 = scenario("user69").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn70 = scenario("user70").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn71 = scenario("user71").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn72 = scenario("user72").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn73 = scenario("user73").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn74 = scenario("user74").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn75 = scenario("user75").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn76 = scenario("user76").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn77 = scenario("user77").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn78 = scenario("user78").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn79 = scenario("user79").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn80 = scenario("user80").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn81 = scenario("user81").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn82 = scenario("user82").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn83 = scenario("user83").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn84 = scenario("user84").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);ScenarioBuilder scn85 = scenario("user85").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);ScenarioBuilder scn86 = scenario("user86").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn87 = scenario("user87").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn88 = scenario("user88").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn89 = scenario("user89").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn90 = scenario("user90").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn91 = scenario("user91").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn92 = scenario("user92").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn93 = scenario("user93").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn94 = scenario("user94").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn95 = scenario("user95").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn96 = scenario("user96").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn97 = scenario("user97").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+    ScenarioBuilder scn98 = scenario("user98").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);ScenarioBuilder scn99 = scenario("user99").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
 
             {
 
@@ -1860,9 +1929,6 @@ ScenarioBuilder scn2 = scenario("user 3")
                         scn1.injectOpen(atOnceUsers(1)).protocols(httpProtocol1),
                         scn2.injectOpen(atOnceUsers(1)).protocols(httpProtocol2)
                 );
-//        setUp(scn.injectOpen(atOnceUsers(1))).protocols(httpProtocol);
-//        setUp(scn1.injectOpen(atOnceUsers(1))).protocols(httpProtocol1);
-//        setUp(scn.injectOpen(atOnceUsers(1)),scn1.injectOpen(atOnceUsers(1)).protocols(httpProtocol));
             }
         }
 

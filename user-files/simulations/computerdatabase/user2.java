@@ -68,6 +68,9 @@ public class user2 extends Simulation {
             .pause(10000); // Adjust as needed for your load testing scenario
 //            .exec(ws("WebSocket Close").close());
 
+
+
+
     {
 
         setUp(
