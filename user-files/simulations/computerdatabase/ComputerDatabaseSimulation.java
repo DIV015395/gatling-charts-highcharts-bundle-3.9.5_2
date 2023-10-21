@@ -11,27 +11,70 @@ public class ComputerDatabaseSimulation extends Simulation
     ResourceBundle baseDataBundle = ResourceBundle.getBundle("basedata");
     ResourceBundle deviceIdBundle = ResourceBundle.getBundle("deviceid");
     ResourceBundle userIdBundle = ResourceBundle.getBundle("userid");
+
+
+
+
+
+//    String baseData0 = baseDataBundle.getString("basedata0");
+//    String deviceId0 = deviceIdBundle.getString("deviceid0");
+//    String userId0 = userIdBundle.getString("userid0");
+//
+//     HttpProtocolBuilder httpProtocol0 = http
+//                    .baseUrl("https://chatqa.clovedental.in")
+//                    .wsBaseUrl("wss://chatqa.clovedental.in") // WebSocket URL
+//                    .acceptHeader("text/plain, */*; q=0.01")
+//                    .header("Sec-WebSocket-Version", "13")
+//                    .header("Sec-WebSocket-Extensions", "permessage-deflate; client_max_window_bits; server_max_window_bits=15")
+//                    .header("Sec-WebSocket-Key", "amxpZgVmbHh5bGljeXl2aQ==")
+//                    .header("current_chat_id", "0")
+//                    .header("userId", userId0)
+//                    .header("Connection", "Upgrade")
+//                    .header("authToken", baseData0)
+//                    .header("deviceId", deviceId0)
+//                    .header("connected_in", "1")
+//                    .header("Upgrade", "websocket")
+//                    .header("Host", "chatqa.clovedental.in:443")
+//                    .header("Origin", "wss://chatqa.clovedental.in")
+//                    .header("platform", "iOS");
+
+
     String baseData0 = baseDataBundle.getString("basedata0");
     String deviceId0 = deviceIdBundle.getString("deviceid0");
     String userId0 = userIdBundle.getString("userid0");
+    HttpProtocolBuilder httpProtocol0 = http
+            .baseUrl("https://chatqa.clovedental.in")
+            .wsBaseUrl("wss://chatqa.clovedental.in") // WebSocket URL
+            .acceptHeader("text/plain, */*; q=0.01")
+            .header("Sec-WebSocket-Version", "13")
+            .header("Sec-WebSocket-Extensions", "permessage-deflate; client_max_window_bits; server_max_window_bits=15")
+            .header("Sec-WebSocket-Key", "amxpZgVmbHh5bGljeXl2aQ==")
+            .header("current_chat_id", "0")
+            .header("userId", userId0)
+            .header("Connection", "Upgrade")
+            .header("authToken", baseData0)
+            .header("deviceId", deviceId0)
+            .header("connected_in", "1")
+            .header("Upgrade", "websocket")
+            .header("Host", "chatqa.clovedental.in:443")
+            .header("Origin", "wss://chatqa.clovedental.in")
+            .header("platform", "iOS");
 
-     HttpProtocolBuilder httpProtocol0 = http
-                    .baseUrl("https://chatqa.clovedental.in")
-                    .wsBaseUrl("wss://chatqa.clovedental.in") // WebSocket URL
-                    .acceptHeader("text/plain, */*; q=0.01")
-                    .header("Sec-WebSocket-Version", "13")
-                    .header("Sec-WebSocket-Extensions", "permessage-deflate; client_max_window_bits; server_max_window_bits=15")
-                    .header("Sec-WebSocket-Key", "amxpZgVmbHh5bGljeXl2aQ==")
-                    .header("current_chat_id", "0")
-                    .header("userId", userId0)
-                    .header("Connection", "Upgrade")
-                    .header("authToken", baseData0)
-                    .header("deviceId", deviceId0)
-                    .header("connected_in", "1")
-                    .header("Upgrade", "websocket")
-                    .header("Host", "chatqa.clovedental.in:443")
-                    .header("Origin", "wss://chatqa.clovedental.in")
-                    .header("platform", "iOS");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     String baseData1 = baseDataBundle.getString("basedata1");
     String deviceId1 = deviceIdBundle.getString("deviceid1");
