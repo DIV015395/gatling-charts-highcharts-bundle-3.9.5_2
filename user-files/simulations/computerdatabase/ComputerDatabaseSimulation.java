@@ -7,6 +7,7 @@ import scala.Function0;
 import scala.collection.Iterator;
 
 import javax.annotation.Nonnull;
+import java.time.Duration;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -19,17 +20,18 @@ public class ComputerDatabaseSimulation extends Simulation
 //
 //    // Other existing code...
 //    FeederBuilder<Object> userData = csv(CSV_FILE_PATH).circular;
+//     FeederBuilder<String> datas = csv("data (1).csv").circular();
 
     ResourceBundle baseDataBundle = ResourceBundle.getBundle("basedata");
     ResourceBundle deviceIdBundle = ResourceBundle.getBundle("deviceid");
     ResourceBundle userIdBundle = ResourceBundle.getBundle("userid");
 
 
-    String baseData0 = baseDataBundle.getString("basedata0");
-    String deviceId0 = deviceIdBundle.getString("deviceid0");
-    String userId0 = userIdBundle.getString("userid0");
+    String baseData2 = baseDataBundle.getString("basedata2");
+    String deviceId2 = deviceIdBundle.getString("deviceid2");
+    String userId2 = userIdBundle.getString("userid2");
 
-    HttpProtocolBuilder httpProtocol0 = http
+    HttpProtocolBuilder httpProtocol2 = http
             .baseUrl("https://chatdv.clovedental.in")
             .wsBaseUrl("wss://chatdv.clovedental.in") // WebSocket URL
             .acceptHeader("text/plain, */*; q=0.01")
@@ -37,10 +39,10 @@ public class ComputerDatabaseSimulation extends Simulation
             .header("Sec-WebSocket-Extensions", "permessage-deflate; client_max_window_bits; server_max_window_bits=15")
             .header("Sec-WebSocket-Key", "amxpZgVmbHh5bGljeXl2aQ==")
             .header("current_chat_id", "0")
-            .header("userId", userId0)
+            .header("userId", userId2)
             .header("Connection", "Upgrade")
-            .header("authToken", baseData0)
-            .header("deviceId", deviceId0)
+            .header("authToken", baseData2)
+            .header("deviceId", deviceId2)
             .header("connected_in", "1")
             .header("Upgrade", "websocket")
             .header("Host", "chatdv.clovedental.in:443")
@@ -80,7 +82,7 @@ public class ComputerDatabaseSimulation extends Simulation
 
 //
 //    ScenarioBuilder scn1 = scenario("WebSocket Scenario")
-//            .feed(userData)  // Use 'feed' to inject data from the feeder
+//            .feed(datas)  // Use 'feed' to inject data from the feeder
 //            .exec(ws("WebSocket Connect")
 //                    .connect("/wss2/socket")
 //                    .header("userId", "${userId}")
@@ -92,6 +94,8 @@ public class ComputerDatabaseSimulation extends Simulation
 
     ScenarioBuilder scn1 = scenario("user 2").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
 
+    ScenarioBuilder scn2 = scenario("user 1").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+
 
 
 
@@ -100,10 +104,15 @@ public class ComputerDatabaseSimulation extends Simulation
 
                 setUp(
 
-                        scn1.injectOpen(atOnceUsers(1)).protocols(httpProtocol1)
+                        scn1.injectOpen(atOnceUsers(1)).protocols(httpProtocol1),
+                        scn2.injectOpen(atOnceUsers(1)).protocols(httpProtocol2)
 
                 );
             }
+
+
+
+
         }
 
 
