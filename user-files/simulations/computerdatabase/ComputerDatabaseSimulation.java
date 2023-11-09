@@ -15,10 +15,10 @@ import java.util.function.BiFunction;
 
 public class ComputerDatabaseSimulation extends Simulation
 {
-    private static final String CSV_FILE_PATH = "path/to/user_data.csv";
-
-    // Other existing code...
-    FeederBuilder<Object> userData = csv(CSV_FILE_PATH).circular;
+//    private static final String CSV_FILE_PATH = "path/to/user_data.csv";
+//
+//    // Other existing code...
+//    FeederBuilder<Object> userData = csv(CSV_FILE_PATH).circular;
 
     ResourceBundle baseDataBundle = ResourceBundle.getBundle("basedata");
     ResourceBundle deviceIdBundle = ResourceBundle.getBundle("deviceid");
@@ -68,25 +68,30 @@ public class ComputerDatabaseSimulation extends Simulation
             .header("Origin", "wss://chatdv.clovedental.in")
             .header("platform", "iOS");
 
+//
+//    ScenarioBuilder scn = scenario("WebSocket Scenario")
+//            .exec(ws("WebSocket Connect")
+//                    .connect("/wss2/socket")
+//                    .header("userId", "${userId}")
+//                    .header("deviceId", "${deviceId}")
+//                    .header("authToken", "${baseData}"))
+//            .pause(120);
 
-    ScenarioBuilder scn = scenario("WebSocket Scenario")
-            .exec(ws("WebSocket Connect")
-                    .connect("/wss2/socket")
-                    .header("userId", "${userId}")
-                    .header("deviceId", "${deviceId}")
-                    .header("authToken", "${baseData}"))
-            .pause(120);
+
+//
+//    ScenarioBuilder scn1 = scenario("WebSocket Scenario")
+//            .feed(userData)  // Use 'feed' to inject data from the feeder
+//            .exec(ws("WebSocket Connect")
+//                    .connect("/wss2/socket")
+//                    .header("userId", "${userId}")
+//                    .header("deviceId", "${deviceId}")
+//                    .header("authToken", "${baseData}"))
+//            .pause(120);
 
 
 
-    ScenarioBuilder scn1 = scenario("WebSocket Scenario")
-            .feed(userData)  // Use 'feed' to inject data from the feeder
-            .exec(ws("WebSocket Connect")
-                    .connect("/wss2/socket")
-                    .header("userId", "${userId}")
-                    .header("deviceId", "${deviceId}")
-                    .header("authToken", "${baseData}"))
-            .pause(120);
+    ScenarioBuilder scn1 = scenario("user 2").exec(ws("WebSocket Connect").connect("/wss2/socket")).pause(120);
+
 
 
 
