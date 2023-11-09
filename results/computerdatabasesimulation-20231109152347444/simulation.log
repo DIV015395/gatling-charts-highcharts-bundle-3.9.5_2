@@ -1,0 +1,4 @@
+RUN	computerdatabase.ComputerDatabaseSimulation	computerdatabasesimulation	1699543427444	socket load	3.9.5
+USER	WebSocket Scenario	START	1699543429354
+ERROR	WebSocket Connect: Failed to build request: No attribute named 'baseData' is defined 	1699543429383
+USER	WebSocket Scenario	END	1699543549411
