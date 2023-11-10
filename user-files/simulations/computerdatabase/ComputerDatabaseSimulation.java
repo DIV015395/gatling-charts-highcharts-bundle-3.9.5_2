@@ -31,10 +31,12 @@ public class ComputerDatabaseSimulation extends Simulation
                     .header("deviceId", "${deviceid}")
                     .header("authToken", "${basedata}"))
             .pause(120);
-    {
+
+
+             {
                 setUp(
 
-                        scn.injectOpen(atOnceUsers(152)).protocols(httpProtocol)
+                        scn.injectOpen(atOnceUsers(50)).protocols(httpProtocol)
                 );
             }
         }
