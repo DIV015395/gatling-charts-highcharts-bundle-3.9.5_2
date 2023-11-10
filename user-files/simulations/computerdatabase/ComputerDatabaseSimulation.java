@@ -1,14 +1,14 @@
 package computerdatabase;
-import static io.gatling.javaapi.core.CoreDsl.*;
-import static io.gatling.javaapi.http.HttpDsl.*;
+
 import io.gatling.javaapi.core.*;
 import io.gatling.javaapi.http.*;
+import static io.gatling.javaapi.core.CoreDsl.*;
+import static io.gatling.javaapi.http.HttpDsl.*;
 
+public class ComputerDatabaseSimulation extends Simulation {
 
-public class ComputerDatabaseSimulation extends Simulation
-{
+    FeederBuilder<String> datas = csv("data.csv").circular();
 
-     FeederBuilder<String> datas = csv("data (1).csv").circular();
     HttpProtocolBuilder httpProtocol = http
             .baseUrl("https://chatdv.clovedental.in")
             .wsBaseUrl("wss://chatdv.clovedental.in") // WebSocket URL
@@ -23,22 +23,32 @@ public class ComputerDatabaseSimulation extends Simulation
             .header("Origin", "wss://chatdv.clovedental.in")
             .header("platform", "iOS");
 
-    ScenarioBuilder scn = scenario("WebSocket Scenario")
+    ScenarioBuilder scn = scenario("WebSocket and HTTP Scenario")
             .feed(datas)  // Use 'feed' to inject data from the feeder
+            .exec(http("HTTP Request")
+                    .post("/cometchat_send.php")
+                    .formParam("basedata", "${basedata}")
+                    .formParam("file_url", "${file_url}")
+                    .formParam("localmessageid", "${localmessageid}")
+                    .formParam("msg_type", "${msg_type}")
+                    .formParam("to", "${to}")
+                    .formParam("message", "${message}")
+            )
+            .pause(1)
             .exec(ws("WebSocket Connect")
                     .connect("/wss2/socket")
                     .header("userId", "${userid}")
                     .header("deviceId", "${deviceid}")
-                    .header("authToken", "${basedata}"))
+                    .header("authToken", "${basedata}")
+            )
             .pause(120);
 
+    {
+        setUp(
 
-             {
-                setUp(
-
-                        scn.injectOpen(atOnceUsers(50)).protocols(httpProtocol)
-                );
-            }
-        }
+                scn.injectOpen(atOnceUsers(50)).protocols(httpProtocol)
+        );
+    }
+}
 
 
