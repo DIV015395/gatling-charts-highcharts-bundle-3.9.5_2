@@ -3,16 +3,7 @@ import static io.gatling.javaapi.core.CoreDsl.*;
 import static io.gatling.javaapi.http.HttpDsl.*;
 import io.gatling.javaapi.core.*;
 import io.gatling.javaapi.http.*;
-import scala.Function0;
-import scala.collection.Iterator;
 
-import javax.annotation.Nonnull;
-import java.time.Duration;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.ResourceBundle;
-import java.util.function.BiFunction;
 
 public class ComputerDatabaseSimulation extends Simulation
 {
@@ -40,19 +31,12 @@ public class ComputerDatabaseSimulation extends Simulation
                     .header("deviceId", "${deviceid}")
                     .header("authToken", "${basedata}"))
             .pause(120);
-
-
     {
-
                 setUp(
 
-                        scn.injectOpen(atOnceUsers(2)).protocols(httpProtocol)
+                        scn.injectOpen(atOnceUsers(152)).protocols(httpProtocol)
                 );
             }
-
-
-
-
         }
 
 
