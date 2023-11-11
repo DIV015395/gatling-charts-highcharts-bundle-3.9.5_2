@@ -7,10 +7,10 @@ import static io.gatling.javaapi.http.HttpDsl.*;
 
 public class ComputerDatabaseSimulation extends Simulation {
 
-    FeederBuilder<String> datas = csv("data.csv").circular();
+    FeederBuilder<String> datas = csv("data (1).csv").circular();
 
     HttpProtocolBuilder httpProtocol = http
-            .baseUrl("https://chatdv.clovedental.in")
+            .baseUrl("https://chatdv.clovedental.in") // Correct HTTPS base URL
             .wsBaseUrl("wss://chatdv.clovedental.in") // WebSocket URL
             .acceptHeader("text/plain, */*; q=0.01")
             .header("Sec-WebSocket-Version", "13")
@@ -23,32 +23,44 @@ public class ComputerDatabaseSimulation extends Simulation {
             .header("Origin", "wss://chatdv.clovedental.in")
             .header("platform", "iOS");
 
-    ScenarioBuilder scn = scenario("WebSocket and HTTP Scenario")
+    ScenarioBuilder scn = scenario("WebSocket Scenario")
             .feed(datas)  // Use 'feed' to inject data from the feeder
-            .exec(http("HTTP Request")
-                    .post("/cometchat_send.php")
-                    .formParam("basedata", "${basedata}")
-                    .formParam("file_url", "${file_url}")
-                    .formParam("localmessageid", "${localmessageid}")
-                    .formParam("msg_type", "${msg_type}")
-                    .formParam("to", "${to}")
-                    .formParam("message", "${message}")
-            )
-            .pause(1)
             .exec(ws("WebSocket Connect")
                     .connect("/wss2/socket")
                     .header("userId", "${userid}")
                     .header("deviceId", "${deviceid}")
-                    .header("authToken", "${basedata}")
-            )
-            .pause(120);
+                    .header("authToken", "${basedata}"))
+            .pause(200);
 
     {
         setUp(
 
-                scn.injectOpen(atOnceUsers(50)).protocols(httpProtocol)
+                scn.injectOpen(atOnceUsers(1)).protocols(httpProtocol)
         );
     }
 }
+
+
+
+
+//    ScenarioBuilder scn = scenario("WebSocket and HTTP Scenario")
+//            .feed(datas)  // Use 'feed' to inject data from the feeder
+//            .exec(ws("WebSocket Connect")
+//                    .connect("/wss2/socket")
+//                    .header("userId", "${userid}")
+//                    .header("deviceId", "${deviceid}")
+//                    .header("authToken", "${basedata}")
+//            )
+//            .pause(5) // Adjust the duration as needed
+//            .exec(http("HTTP Request")
+//                    .post("/cometchat_send.php")
+//                    .formParam("authToken", "${basedata}")
+//                    .formParam("file_url", "")
+//                    .formParam("localmessageid", "34848584")
+//                    .formParam("msg_type", "10")
+//                    .formParam("to", "12")
+//                    .formParam("message", "hello")
+//            )
+//            .pause(120); // Adjust the duration as needed
 
 

@@ -1,0 +1,201 @@
+RUN	computerdatabase.ComputerDatabaseSimulation	computerdatabasesimulation	1699632994304	socket	3.9.5
+USER	WebSocket and HTTP Scenario	START	1699632996301
+USER	WebSocket and HTTP Scenario	START	1699632996301
+USER	WebSocket and HTTP Scenario	START	1699632996301
+USER	WebSocket and HTTP Scenario	START	1699632996301
+USER	WebSocket and HTTP Scenario	START	1699632996302
+USER	WebSocket and HTTP Scenario	START	1699632996302
+USER	WebSocket and HTTP Scenario	START	1699632996302
+USER	WebSocket and HTTP Scenario	START	1699632996302
+USER	WebSocket and HTTP Scenario	START	1699632996302
+USER	WebSocket and HTTP Scenario	START	1699632996302
+USER	WebSocket and HTTP Scenario	START	1699632996302
+USER	WebSocket and HTTP Scenario	START	1699632996302
+USER	WebSocket and HTTP Scenario	START	1699632996302
+USER	WebSocket and HTTP Scenario	START	1699632996302
+USER	WebSocket and HTTP Scenario	START	1699632996302
+USER	WebSocket and HTTP Scenario	START	1699632996302
+USER	WebSocket and HTTP Scenario	START	1699632996303
+USER	WebSocket and HTTP Scenario	START	1699632996303
+USER	WebSocket and HTTP Scenario	START	1699632996303
+USER	WebSocket and HTTP Scenario	START	1699632996303
+USER	WebSocket and HTTP Scenario	START	1699632996301
+USER	WebSocket and HTTP Scenario	START	1699632996303
+USER	WebSocket and HTTP Scenario	START	1699632996303
+USER	WebSocket and HTTP Scenario	START	1699632996303
+USER	WebSocket and HTTP Scenario	START	1699632996303
+USER	WebSocket and HTTP Scenario	START	1699632996303
+USER	WebSocket and HTTP Scenario	START	1699632996303
+USER	WebSocket and HTTP Scenario	START	1699632996303
+USER	WebSocket and HTTP Scenario	START	1699632996303
+USER	WebSocket and HTTP Scenario	START	1699632996303
+USER	WebSocket and HTTP Scenario	START	1699632996303
+USER	WebSocket and HTTP Scenario	START	1699632996303
+USER	WebSocket and HTTP Scenario	START	1699632996303
+USER	WebSocket and HTTP Scenario	START	1699632996303
+USER	WebSocket and HTTP Scenario	START	1699632996303
+USER	WebSocket and HTTP Scenario	START	1699632996303
+USER	WebSocket and HTTP Scenario	START	1699632996304
+USER	WebSocket and HTTP Scenario	START	1699632996304
+USER	WebSocket and HTTP Scenario	START	1699632996304
+USER	WebSocket and HTTP Scenario	START	1699632996304
+USER	WebSocket and HTTP Scenario	START	1699632996304
+USER	WebSocket and HTTP Scenario	START	1699632996304
+USER	WebSocket and HTTP Scenario	START	1699632996304
+USER	WebSocket and HTTP Scenario	START	1699632996304
+USER	WebSocket and HTTP Scenario	START	1699632996304
+USER	WebSocket and HTTP Scenario	START	1699632996304
+USER	WebSocket and HTTP Scenario	START	1699632996304
+USER	WebSocket and HTTP Scenario	START	1699632996304
+USER	WebSocket and HTTP Scenario	START	1699632996305
+USER	WebSocket and HTTP Scenario	START	1699632996305
+REQUEST		WebSocket Connect	1699632996392	1699632996525	OK	 
+REQUEST		WebSocket Connect	1699632996363	1699632996543	OK	 
+REQUEST		WebSocket Connect	1699632996366	1699632996549	OK	 
+REQUEST		WebSocket Connect	1699632996365	1699632996550	OK	 
+REQUEST		WebSocket Connect	1699632996366	1699632996554	OK	 
+REQUEST		WebSocket Connect	1699632996392	1699632996568	OK	 
+REQUEST		WebSocket Connect	1699632996394	1699632996573	OK	 
+REQUEST		WebSocket Connect	1699632996360	1699632996587	OK	 
+REQUEST		WebSocket Connect	1699632996393	1699632996595	OK	 
+REQUEST		WebSocket Connect	1699632996392	1699632996595	OK	 
+REQUEST		WebSocket Connect	1699632996360	1699632996642	OK	 
+REQUEST		WebSocket Connect	1699632996394	1699632997082	OK	 
+REQUEST		WebSocket Connect	1699632996392	1699632998101	OK	 
+REQUEST		WebSocket Connect	1699632996392	1699632998113	OK	 
+REQUEST		WebSocket Connect	1699632996394	1699632999022	OK	 
+REQUEST		WebSocket Connect	1699632996393	1699632999045	OK	 
+REQUEST		WebSocket Connect	1699632996397	1699632999052	OK	 
+REQUEST		WebSocket Connect	1699632996398	1699632999052	OK	 
+REQUEST		WebSocket Connect	1699632996393	1699633000058	OK	 
+REQUEST		WebSocket Connect	1699632996361	1699633000069	OK	 
+REQUEST		WebSocket Connect	1699632996395	1699633000081	OK	 
+REQUEST		WebSocket Connect	1699632996393	1699633000090	OK	 
+REQUEST		WebSocket Connect	1699632996368	1699633000099	OK	 
+REQUEST		WebSocket Connect	1699632996398	1699633000108	OK	 
+REQUEST		WebSocket Connect	1699632996367	1699633000118	OK	 
+REQUEST		WebSocket Connect	1699632996398	1699633000120	OK	 
+REQUEST		WebSocket Connect	1699632996399	1699633001083	OK	 
+REQUEST		WebSocket Connect	1699632996360	1699633001092	OK	 
+REQUEST		WebSocket Connect	1699632996396	1699633001104	OK	 
+REQUEST		WebSocket Connect	1699632996366	1699633001109	OK	 
+REQUEST		WebSocket Connect	1699632996364	1699633001123	OK	 
+REQUEST		WebSocket Connect	1699632996398	1699633001130	OK	 
+REQUEST		WebSocket Connect	1699632996399	1699633001140	OK	 
+REQUEST		WebSocket Connect	1699632996397	1699633001149	OK	 
+REQUEST		WebSocket Connect	1699632996395	1699633001160	OK	 
+REQUEST		WebSocket Connect	1699632996360	1699633001167	OK	 
+REQUEST		WebSocket Connect	1699632996395	1699633001175	OK	 
+REQUEST		WebSocket Connect	1699632996400	1699633001182	OK	 
+REQUEST		WebSocket Connect	1699632996360	1699633001192	OK	 
+REQUEST		WebSocket Connect	1699632996400	1699633001200	OK	 
+REQUEST		WebSocket Connect	1699632996399	1699633001209	OK	 
+REQUEST		WebSocket Connect	1699632996398	1699633001219	OK	 
+REQUEST		WebSocket Connect	1699632996360	1699633001220	OK	 
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633001553
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633001555
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633001560
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633001560
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633001561
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633001577
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633001577
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633001592
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633001608
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633001608
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633001656
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633002088
+REQUEST		WebSocket Connect	1699632996399	1699633002194	OK	 
+REQUEST		WebSocket Connect	1699632996402	1699633002210	OK	 
+REQUEST		WebSocket Connect	1699632996368	1699633002217	OK	 
+REQUEST		WebSocket Connect	1699632996402	1699633002227	OK	 
+REQUEST		WebSocket Connect	1699632996401	1699633002234	OK	 
+REQUEST		WebSocket Connect	1699632996402	1699633002242	OK	 
+REQUEST		WebSocket Connect	1699632996400	1699633002244	OK	 
+USER	WebSocket and HTTP Scenario	END	1699633002572
+USER	WebSocket and HTTP Scenario	END	1699633002572
+USER	WebSocket and HTTP Scenario	END	1699633002572
+USER	WebSocket and HTTP Scenario	END	1699633002573
+USER	WebSocket and HTTP Scenario	END	1699633002573
+USER	WebSocket and HTTP Scenario	END	1699633002584
+USER	WebSocket and HTTP Scenario	END	1699633002584
+USER	WebSocket and HTTP Scenario	END	1699633002599
+USER	WebSocket and HTTP Scenario	END	1699633002610
+USER	WebSocket and HTTP Scenario	END	1699633002615
+USER	WebSocket and HTTP Scenario	END	1699633002661
+USER	WebSocket and HTTP Scenario	END	1699633003095
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633003110
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633003125
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633004028
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633004059
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633004059
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633004059
+USER	WebSocket and HTTP Scenario	END	1699633004121
+USER	WebSocket and HTTP Scenario	END	1699633004136
+USER	WebSocket and HTTP Scenario	END	1699633005030
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633005062
+USER	WebSocket and HTTP Scenario	END	1699633005063
+USER	WebSocket and HTTP Scenario	END	1699633005063
+USER	WebSocket and HTTP Scenario	END	1699633005077
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633005077
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633005093
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633005093
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633005109
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633005125
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633005125
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633005126
+USER	WebSocket and HTTP Scenario	END	1699633006076
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633006091
+USER	WebSocket and HTTP Scenario	END	1699633006091
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633006107
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633006107
+USER	WebSocket and HTTP Scenario	END	1699633006107
+USER	WebSocket and HTTP Scenario	END	1699633006108
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633006122
+USER	WebSocket and HTTP Scenario	END	1699633006122
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633006137
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633006137
+USER	WebSocket and HTTP Scenario	END	1699633006137
+USER	WebSocket and HTTP Scenario	END	1699633006137
+USER	WebSocket and HTTP Scenario	END	1699633006138
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633006153
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633006153
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633006168
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633006169
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633006184
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633006184
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633006200
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633006215
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633006215
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633006231
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633006231
+USER	WebSocket and HTTP Scenario	END	1699633007099
+USER	WebSocket and HTTP Scenario	END	1699633007115
+USER	WebSocket and HTTP Scenario	END	1699633007115
+USER	WebSocket and HTTP Scenario	END	1699633007130
+USER	WebSocket and HTTP Scenario	END	1699633007146
+USER	WebSocket and HTTP Scenario	END	1699633007146
+USER	WebSocket and HTTP Scenario	END	1699633007161
+USER	WebSocket and HTTP Scenario	END	1699633007162
+USER	WebSocket and HTTP Scenario	END	1699633007177
+USER	WebSocket and HTTP Scenario	END	1699633007177
+USER	WebSocket and HTTP Scenario	END	1699633007192
+USER	WebSocket and HTTP Scenario	END	1699633007192
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633007207
+USER	WebSocket and HTTP Scenario	END	1699633007208
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633007223
+USER	WebSocket and HTTP Scenario	END	1699633007223
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633007223
+USER	WebSocket and HTTP Scenario	END	1699633007225
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633007239
+USER	WebSocket and HTTP Scenario	END	1699633007239
+USER	WebSocket and HTTP Scenario	END	1699633007241
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633007241
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633007254
+ERROR	HTTP Request: Failed to build request: No attribute named 'file_url' is defined 	1699633007255
+USER	WebSocket and HTTP Scenario	END	1699633008211
+USER	WebSocket and HTTP Scenario	END	1699633008227
+USER	WebSocket and HTTP Scenario	END	1699633008228
+USER	WebSocket and HTTP Scenario	END	1699633008243
+USER	WebSocket and HTTP Scenario	END	1699633008243
+USER	WebSocket and HTTP Scenario	END	1699633008259
+USER	WebSocket and HTTP Scenario	END	1699633008260

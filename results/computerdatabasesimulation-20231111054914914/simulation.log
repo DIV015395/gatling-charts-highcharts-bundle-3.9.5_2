@@ -1,0 +1,4 @@
+RUN	computerdatabase.ComputerDatabaseSimulation	computerdatabasesimulation	1699681754914	Chating	3.9.5
+USER	WebSocket Scenario	START	1699681756269
+REQUEST		WebSocket Connect	1699681756287	1699681756399	OK	 
+USER	WebSocket Scenario	END	1699682056421
