@@ -1,0 +1,7 @@
+RUN	computerdatabase.ComputerDatabaseSimulation	computerdatabasesimulation	1700120230381	Socket Connect	3.9.5
+USER	WebSocket Scenario	START	1700120232213
+USER	WebSocket Scenario	START	1700120232213
+REQUEST		WebSocket Connect	1700120232255	1700120232568	OK	 
+REQUEST		WebSocket Connect	1700120232255	1700120232569	OK	 
+USER	WebSocket Scenario	END	1700121232602
+USER	WebSocket Scenario	END	1700121232602

@@ -1,0 +1,6 @@
+RUN	computerdatabase.ComputerDatabaseSimulation	computerdatabasesimulation	1700335936333	Socket connect	3.9.5
+USER	WebSocket Scenario	START	1700335938062
+REQUEST		WebSocket Connect	1700335938110	1700335938289	OK	 
+REQUEST		Send WebSocket Request	1700335948327	1700335948327	OK	 
+REQUEST		responseName	1700335948327	1700335948532	KO	regex(Expected response pattern).find.exists, found nothing
+USER	WebSocket Scenario	END	1700336008577

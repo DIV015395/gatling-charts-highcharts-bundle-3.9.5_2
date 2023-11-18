@@ -1,0 +1,6 @@
+RUN	computerdatabase.ComputerDatabaseSimulation	computerdatabasesimulation	1700335207634	Socket connect	3.9.5
+USER	WebSocket Scenario	START	1700335209282
+REQUEST		WebSocket Connect	1700335209325	1700335209477	OK	 
+REQUEST		Send WebSocket Request	1700335219519	1700335219519	OK	 
+REQUEST		responseName	1700335219519	1700335219564	KO	WebSocket crashed while waiting for check: 
+USER	WebSocket Scenario	END	1700335279585

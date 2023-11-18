@@ -1,0 +1,10 @@
+{
+  "simulation": "computerdatabase.ComputerDatabaseSimulation",
+  "simulationId": "computerdatabasesimulation-20231111110334846",
+  "start": 1699700616187,
+  "description": "socket",
+  "scenarios": ["WebSocket Scenario"],
+  "assertions": [
+
+  ]
+}

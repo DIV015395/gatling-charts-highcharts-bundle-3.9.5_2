@@ -30,11 +30,12 @@ public class WorkingFine extends Simulation {
                     .header("userId", "${userid}")
                     .header("deviceId", "${deviceid}")
                     .header("authToken", "${basedata}"))
+
             .pause(200);
 
     {
-        setUp(
-
+        setUp
+                (
                 scn.injectOpen(atOnceUsers(1)).protocols(httpProtocol)
         );
     }

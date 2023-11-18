@@ -1,12 +1,18 @@
 package computerdatabase;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import io.gatling.javaapi.core.*;
 import io.gatling.javaapi.http.*;
+
+import java.io.IOException;
+import java.time.Duration;
+
 import static io.gatling.javaapi.core.CoreDsl.*;
 import static io.gatling.javaapi.http.HttpDsl.*;
 
-public class ComputerDatabaseSimulation extends Simulation {
-
+public class ComputerDatabaseSimulation extends Simulation
+{
     FeederBuilder<String> datas = csv("data (1).csv").circular();
 
     HttpProtocolBuilder httpProtocol = http
@@ -20,9 +26,7 @@ public class ComputerDatabaseSimulation extends Simulation {
             .header("connected_in", "2")
             .header("Upgrade", "websocket")
             .header("Host", "chatdv.clovedental.in:443")
-            .header("Origin", "wss://chatdv.clovedental.in")
             .header("platform", "iOS");
-
     ScenarioBuilder scn = scenario("WebSocket Scenario")
             .feed(datas)  // Use 'feed' to inject data from the feeder
             .exec(ws("WebSocket Connect")
@@ -30,37 +34,31 @@ public class ComputerDatabaseSimulation extends Simulation {
                     .header("userId", "${userid}")
                     .header("deviceId", "${deviceid}")
                     .header("authToken", "${basedata}"))
-            .pause(200);
+            .pause(10)
+            .exec(ws("Send WebSocket Request")
+                    .sendText("{\"requestType\": \"getMessagesOnDemand\","  + "\"}") .await(30)
+                    .on(
+                            ws.checkTextMessage("responseName").check(regex("Expected response pattern").find().exists()))
 
+            ).pause(60).exec(session -> {
+    System.out.println("Raw WebSocket Response: " + session("response").as());
+    return session;
+});
+
+    private JsonDeserialize session(String response) {
+        ObjectMapper objectMapper = new ObjectMapper();
+        try {
+            return objectMapper.readValue(response, JsonDeserialize.class);
+        } catch (IOException e) {
+            // Handle the exception (e.g., log it or throw a specific exception)
+            e.printStackTrace();
+            return null; // or throw an exception
+        }
+    }
     {
-        setUp(
-
-                scn.injectOpen(atOnceUsers(1)).protocols(httpProtocol)
-        );
+        setUp(scn.injectOpen(atOnceUsers(1)).protocols(httpProtocol));
     }
 }
 
-
-
-
-//    ScenarioBuilder scn = scenario("WebSocket and HTTP Scenario")
-//            .feed(datas)  // Use 'feed' to inject data from the feeder
-//            .exec(ws("WebSocket Connect")
-//                    .connect("/wss2/socket")
-//                    .header("userId", "${userid}")
-//                    .header("deviceId", "${deviceid}")
-//                    .header("authToken", "${basedata}")
-//            )
-//            .pause(5) // Adjust the duration as needed
-//            .exec(http("HTTP Request")
-//                    .post("/cometchat_send.php")
-//                    .formParam("authToken", "${basedata}")
-//                    .formParam("file_url", "")
-//                    .formParam("localmessageid", "34848584")
-//                    .formParam("msg_type", "10")
-//                    .formParam("to", "12")
-//                    .formParam("message", "hello")
-//            )
-//            .pause(120); // Adjust the duration as needed
 
 
