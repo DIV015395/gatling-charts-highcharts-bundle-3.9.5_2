@@ -8,7 +8,7 @@ import java.time.Duration;
 import static io.gatling.javaapi.core.CoreDsl.*;
 import static io.gatling.javaapi.http.HttpDsl.*;
 
-public class ComputerDatabaseSimulation extends Simulation
+public class SendRequestType extends Simulation
 {
     FeederBuilder<String> datas = csv("data (1).csv").circular();
 
@@ -33,11 +33,7 @@ public class ComputerDatabaseSimulation extends Simulation
                     .header("authToken", "${basedata}"))
             .pause(10)
             .exec(ws("Send WebSocket Request")
-                    .sendText("{\"requestType\": \"getMessagesOnDemand\","  + "\"}") .await(30)
-                    .on(
-                            ws.checkTextMessage("responseName").check(regex("Expected response pattern").saveAs("response")))
-
-            ).pause(60);
+                    .sendText("{\"requestType\": \"getMessagesOnDemand\", \"chatroomId\": \"-1\", \"login_timestamp\": \"" + System.currentTimeMillis() + "\"}"));
 
 
     {
