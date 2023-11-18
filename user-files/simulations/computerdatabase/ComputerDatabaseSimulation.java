@@ -6,18 +6,17 @@ import io.gatling.javaapi.core.*;
 import io.gatling.javaapi.http.*;
 
 import java.io.IOException;
-import java.time.Duration;
 
 import static io.gatling.javaapi.core.CoreDsl.*;
 import static io.gatling.javaapi.http.HttpDsl.*;
 
-public class ComputerDatabaseSimulation extends Simulation
-{
+public class ComputerDatabaseSimulation extends Simulation {
+
     FeederBuilder<String> datas = csv("data (1).csv").circular();
 
     HttpProtocolBuilder httpProtocol = http
-            .baseUrl("https://chatdv.clovedental.in") // Correct HTTPS base URL
-            .wsBaseUrl("wss://chatdv.clovedental.in") // WebSocket URL
+            .baseUrl("https://chatdv.clovedental.in")
+            .wsBaseUrl("wss://chatdv.clovedental.in")
             .acceptHeader("text/plain, */*; q=0.01")
             .header("Sec-WebSocket-Version", "13")
             .header("Sec-WebSocket-Extensions", "permessage-deflate; client_max_window_bits; server_max_window_bits=15")
@@ -27,38 +26,33 @@ public class ComputerDatabaseSimulation extends Simulation
             .header("Upgrade", "websocket")
             .header("Host", "chatdv.clovedental.in:443")
             .header("platform", "iOS");
-    ScenarioBuilder scn = scenario("WebSocket Scenario")
-            .feed(datas)  // Use 'feed' to inject data from the feeder
-            .exec(ws("WebSocket Connect")
-                    .connect("/wss2/socket")
-                    .header("userId", "${userid}")
-                    .header("deviceId", "${deviceid}")
-                    .header("authToken", "${basedata}"))
-            .pause(10)
-            .exec(ws("Send WebSocket Request")
-                    .sendText("{\"requestType\": \"getMessagesOnDemand\","  + "\"}") .await(30)
-                    .on(
-                            ws.checkTextMessage("responseName").check(regex("Expected response pattern").find().exists()))
 
-            ).pause(60).exec(session -> {
-    System.out.println("Raw WebSocket Response: " + session("response").as());
-    return session;
-});
+    ScenarioBuilder scn = scenario("WebSocket Scenario")
+            .feed(datas)
+            .exec(ws("Send WebSocket Request")
+                    .sendText("{\"requestType\": \"getMessagesOnDemand\"," + "\"}")
+                    .await(30)
+                    .on(ws.checkTextMessage("responseName").check(jsonPath("$.yourJsonField").saveAs("response")))
+            )
+            .exec(session -> {
+                String jsonResponse = String.valueOf(session("response").as());
+                System.out.println("Raw WebSocket Response: " + jsonResponse);
+                JsonDeserialize deserializedResponse = session(jsonResponse);
+                return session;
+            })
+            .pause(60);
 
     private JsonDeserialize session(String response) {
         ObjectMapper objectMapper = new ObjectMapper();
         try {
             return objectMapper.readValue(response, JsonDeserialize.class);
         } catch (IOException e) {
-            // Handle the exception (e.g., log it or throw a specific exception)
             e.printStackTrace();
-            return null; // or throw an exception
+            return null;
         }
     }
+
     {
         setUp(scn.injectOpen(atOnceUsers(1)).protocols(httpProtocol));
     }
 }
-
-
-

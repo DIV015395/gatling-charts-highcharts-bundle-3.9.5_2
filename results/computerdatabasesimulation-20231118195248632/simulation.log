@@ -1,0 +1,6 @@
+RUN	computerdatabase.ComputerDatabaseSimulation	computerdatabasesimulation	1700337168632	Socket connect	3.9.5
+USER	WebSocket Scenario	START	1700337170398
+REQUEST		WebSocket Connect	1700337170446	1700337170718	OK	 
+REQUEST		Send WebSocket Request	1700337180743	1700337180743	OK	 
+REQUEST		responseName	1700337180743	1700337180784	OK	 
+USER	WebSocket Scenario	END	1700337240827
