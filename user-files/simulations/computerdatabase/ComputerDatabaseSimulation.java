@@ -36,7 +36,7 @@ public class ComputerDatabaseSimulation extends Simulation {
     {
         setUp
                 (
-                        scn.injectOpen(atOnceUsers(40)).protocols(httpProtocol)
+                        scn.injectOpen(atOnceUsers(170)).protocols(httpProtocol)
                 );
     }
 }

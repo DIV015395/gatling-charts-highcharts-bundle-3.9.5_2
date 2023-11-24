@@ -1,4 +1,0 @@
-RUN	computerdatabase.ComputerDatabaseSimulation	computerdatabasesimulation	1697610526425	socket load	3.9.5
-USER	WebSocket Load Test 2	START	1697610527789
-REQUEST		WebSocket Connect	1697610527777	1697610528194	OK	 
-USER	WebSocket Load Test 2	END	1697610628209

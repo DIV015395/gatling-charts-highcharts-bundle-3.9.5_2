@@ -1,4 +1,0 @@
-RUN	computerdatabase.ComputerDatabaseSimulation	computerdatabasesimulation	1699525463626	load testing	3.9.5
-USER	user 2	START	1699525464804
-REQUEST		WebSocket Connect	1699525464796	1699525464913	KO	i.n.h.c.h.w.WebSocketClientHandshakeException: Invalid handshake response getStatus: 503 Service Unavailable
-USER	user 2	END	1699525584936

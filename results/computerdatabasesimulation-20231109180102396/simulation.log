@@ -1,7 +1,0 @@
-RUN	computerdatabase.ComputerDatabaseSimulation	computerdatabasesimulation	1699552862396	socket load	3.9.5
-USER	WebSocket Scenario	START	1699552864319
-USER	WebSocket Scenario	START	1699552864319
-REQUEST		WebSocket Connect	1699552864376	1699552864803	OK	 
-REQUEST		WebSocket Connect	1699552864376	1699552864800	OK	 
-USER	WebSocket Scenario	END	1699552984820
-USER	WebSocket Scenario	END	1699552984820

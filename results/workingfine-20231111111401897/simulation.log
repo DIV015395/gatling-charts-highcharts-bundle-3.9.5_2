@@ -1,4 +1,0 @@
-RUN	computerdatabase.WorkingFine	workingfine	1699701241897	socket	3.9.5
-USER	WebSocket Scenario	START	1699701243573
-REQUEST		WebSocket Connect	1699701243615	1699701243756	OK	 
-USER	WebSocket Scenario	END	1699726142757

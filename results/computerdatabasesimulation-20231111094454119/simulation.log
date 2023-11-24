@@ -1,7 +1,0 @@
-RUN	computerdatabase.ComputerDatabaseSimulation	computerdatabasesimulation	1699695894119	socket	3.9.5
-USER	WebSocket Scenario	START	1699695896029
-USER	Sending Chat	START	1699695896029
-REQUEST		WebSocket Connect	1699695896077	1699695896273	OK	 
-REQUEST		HTTP Request	1699695896089	1699695896271	OK	 
-USER	Sending Chat	END	1699696016323
-USER	WebSocket Scenario	END	1699696096297

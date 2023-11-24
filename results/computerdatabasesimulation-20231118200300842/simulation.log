@@ -1,4 +1,0 @@
-RUN	computerdatabase.ComputerDatabaseSimulation	computerdatabasesimulation	1700337780842	s	3.9.5
-USER	WebSocket Scenario	START	1700337780922
-ERROR	Send WebSocket Request: Failed to build request: Couldn't fetch open webSocket 	1700337780926
-USER	WebSocket Scenario	END	1700337840961
