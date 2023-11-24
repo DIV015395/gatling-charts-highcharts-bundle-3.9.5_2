@@ -1,11 +1,12 @@
 package computerdatabase;
 
+
 import io.gatling.javaapi.core.*;
 import io.gatling.javaapi.http.*;
 import static io.gatling.javaapi.core.CoreDsl.*;
 import static io.gatling.javaapi.http.HttpDsl.*;
 
-public class ComputerDatabaseSimulation extends Simulation
+public class NewCodeWithSendRequest extends Simulation
 {
     FeederBuilder<String> datas = csv("data (1).csv").circular();
     HttpProtocolBuilder httpProtocol = http
