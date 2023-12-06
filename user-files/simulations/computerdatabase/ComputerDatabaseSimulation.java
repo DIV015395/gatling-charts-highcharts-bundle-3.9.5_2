@@ -28,13 +28,14 @@ public class ComputerDatabaseSimulation extends Simulation
                     .header("userId", "${userid}")
                     .header("deviceId", "${deviceid}")
                     .header("authToken", "${basedata}"))
-            .pause(10)
+            .pause(0)
             .exec(ws("Send Request type in Websocket")
                     .sendText("{\"requestType\": \"getMessagesOnDemand\"}")).pause(5);
     {
         setUp
                 (
-                        scn.injectOpen(atOnceUsers(170)).protocols(httpProtocol)
+//                        scn.injectOpen(atOnceUsers(170)).protocols(httpProtocol)
+                        scn.injectOpen(rampUsers(100).during(1)).protocols(httpProtocol)
                 );
     }
 }

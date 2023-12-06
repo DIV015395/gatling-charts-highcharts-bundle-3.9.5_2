@@ -1,0 +1,305 @@
+RUN	computerdatabase.API	api	1701858241852	d	3.9.5
+USER	WebSocket Scenario	START	1701858248797
+ERROR	WebSocket Connect: Failed to build request: No attribute named 'userId' is defined 	1701858248827
+USER	API Scenario	START	1701858253775
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253780
+USER	API Scenario	START	1701858253786
+USER	API Scenario	START	1701858253786
+USER	API Scenario	END	1701858253786
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253787
+USER	API Scenario	END	1701858253788
+USER	API Scenario	START	1701858253788
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253789
+USER	API Scenario	START	1701858253790
+USER	API Scenario	START	1701858253790
+USER	API Scenario	START	1701858253790
+USER	API Scenario	START	1701858253790
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253790
+USER	API Scenario	START	1701858253790
+USER	API Scenario	START	1701858253790
+USER	API Scenario	START	1701858253790
+USER	API Scenario	START	1701858253790
+USER	API Scenario	START	1701858253790
+USER	API Scenario	START	1701858253790
+USER	API Scenario	START	1701858253790
+USER	API Scenario	START	1701858253790
+USER	API Scenario	START	1701858253790
+USER	API Scenario	START	1701858253790
+USER	API Scenario	START	1701858253790
+USER	API Scenario	START	1701858253790
+USER	API Scenario	START	1701858253790
+USER	API Scenario	START	1701858253790
+USER	API Scenario	START	1701858253790
+USER	API Scenario	START	1701858253790
+USER	API Scenario	START	1701858253790
+USER	API Scenario	START	1701858253790
+USER	API Scenario	START	1701858253790
+USER	API Scenario	START	1701858253790
+USER	API Scenario	START	1701858253790
+USER	API Scenario	START	1701858253791
+USER	API Scenario	START	1701858253791
+USER	API Scenario	START	1701858253791
+USER	API Scenario	START	1701858253791
+USER	API Scenario	START	1701858253791
+USER	API Scenario	START	1701858253791
+USER	API Scenario	START	1701858253791
+USER	API Scenario	START	1701858253791
+USER	API Scenario	START	1701858253791
+USER	API Scenario	START	1701858253791
+USER	API Scenario	START	1701858253791
+USER	API Scenario	START	1701858253791
+USER	API Scenario	START	1701858253791
+USER	API Scenario	START	1701858253791
+USER	API Scenario	START	1701858253791
+USER	API Scenario	START	1701858253791
+USER	API Scenario	START	1701858253791
+USER	API Scenario	START	1701858253791
+USER	API Scenario	START	1701858253791
+USER	API Scenario	START	1701858253791
+USER	API Scenario	START	1701858253791
+USER	API Scenario	START	1701858253791
+USER	API Scenario	START	1701858253791
+USER	API Scenario	START	1701858253791
+USER	API Scenario	START	1701858253792
+USER	API Scenario	START	1701858253792
+USER	API Scenario	START	1701858253792
+USER	API Scenario	START	1701858253792
+USER	API Scenario	START	1701858253792
+USER	API Scenario	START	1701858253792
+USER	API Scenario	START	1701858253792
+USER	API Scenario	START	1701858253792
+USER	API Scenario	START	1701858253792
+USER	API Scenario	START	1701858253792
+USER	API Scenario	START	1701858253792
+USER	API Scenario	START	1701858253792
+USER	API Scenario	START	1701858253792
+USER	API Scenario	START	1701858253792
+USER	API Scenario	START	1701858253792
+USER	API Scenario	START	1701858253792
+USER	API Scenario	START	1701858253792
+USER	API Scenario	START	1701858253792
+USER	API Scenario	START	1701858253792
+USER	API Scenario	START	1701858253793
+USER	API Scenario	START	1701858253793
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253793
+USER	API Scenario	START	1701858253793
+USER	API Scenario	START	1701858253793
+USER	API Scenario	START	1701858253793
+USER	API Scenario	START	1701858253793
+USER	API Scenario	START	1701858253793
+USER	API Scenario	START	1701858253793
+USER	API Scenario	START	1701858253793
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253793
+USER	API Scenario	START	1701858253793
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253793
+USER	API Scenario	START	1701858253794
+USER	API Scenario	START	1701858253794
+USER	API Scenario	END	1701858253793
+USER	API Scenario	START	1701858253794
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253794
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253794
+USER	API Scenario	START	1701858253795
+USER	API Scenario	START	1701858253795
+USER	API Scenario	START	1701858253795
+USER	API Scenario	START	1701858253795
+USER	API Scenario	START	1701858253795
+USER	API Scenario	START	1701858253795
+USER	API Scenario	START	1701858253795
+USER	API Scenario	START	1701858253796
+USER	API Scenario	START	1701858253796
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253796
+USER	API Scenario	START	1701858253796
+USER	API Scenario	START	1701858253796
+USER	API Scenario	START	1701858253797
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253800
+USER	API Scenario	START	1701858253800
+USER	API Scenario	START	1701858253800
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253800
+USER	API Scenario	START	1701858253801
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253801
+USER	API Scenario	END	1701858253801
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253802
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253803
+USER	API Scenario	END	1701858253803
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253804
+USER	API Scenario	END	1701858253804
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253804
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253805
+USER	API Scenario	END	1701858253805
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253805
+USER	API Scenario	END	1701858253807
+USER	API Scenario	END	1701858253810
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253810
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253810
+USER	API Scenario	END	1701858253810
+USER	API Scenario	END	1701858253811
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253811
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253811
+USER	API Scenario	END	1701858253811
+USER	API Scenario	END	1701858253812
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253812
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253813
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253813
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253813
+USER	API Scenario	END	1701858253813
+USER	API Scenario	END	1701858253813
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253813
+USER	API Scenario	END	1701858253813
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253814
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253814
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253814
+USER	API Scenario	END	1701858253814
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253815
+USER	API Scenario	END	1701858253815
+USER	API Scenario	END	1701858253815
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253815
+USER	API Scenario	END	1701858253815
+USER	API Scenario	END	1701858253816
+USER	API Scenario	END	1701858253816
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253816
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253816
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253816
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253817
+USER	API Scenario	END	1701858253817
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253817
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253818
+USER	API Scenario	END	1701858253818
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253818
+USER	API Scenario	END	1701858253818
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253819
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253819
+USER	API Scenario	END	1701858253819
+USER	API Scenario	END	1701858253819
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253819
+USER	API Scenario	END	1701858253819
+USER	API Scenario	END	1701858253820
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253820
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253820
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253820
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253821
+USER	API Scenario	END	1701858253820
+USER	API Scenario	END	1701858253821
+USER	API Scenario	END	1701858253822
+USER	API Scenario	END	1701858253822
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253822
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253822
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253823
+USER	API Scenario	END	1701858253823
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253823
+USER	API Scenario	END	1701858253823
+USER	API Scenario	END	1701858253824
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253824
+USER	API Scenario	END	1701858253824
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253824
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253824
+USER	API Scenario	END	1701858253825
+USER	API Scenario	END	1701858253825
+USER	API Scenario	END	1701858253825
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253825
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253825
+USER	API Scenario	END	1701858253825
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253826
+USER	API Scenario	END	1701858253826
+USER	API Scenario	END	1701858253826
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253827
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253827
+USER	API Scenario	END	1701858253827
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253827
+USER	API Scenario	END	1701858253827
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253828
+USER	API Scenario	END	1701858253828
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253828
+USER	API Scenario	END	1701858253828
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253829
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253829
+USER	API Scenario	END	1701858253829
+USER	API Scenario	END	1701858253829
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253830
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253830
+USER	API Scenario	END	1701858253830
+USER	API Scenario	END	1701858253830
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253830
+USER	API Scenario	END	1701858253830
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253830
+USER	API Scenario	END	1701858253831
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253831
+USER	API Scenario	END	1701858253831
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253831
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253831
+USER	API Scenario	END	1701858253831
+USER	API Scenario	END	1701858253831
+USER	API Scenario	END	1701858253832
+USER	API Scenario	END	1701858253832
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253832
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253832
+USER	API Scenario	END	1701858253832
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253832
+USER	API Scenario	END	1701858253833
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253833
+USER	API Scenario	END	1701858253833
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253833
+USER	API Scenario	END	1701858253834
+USER	API Scenario	END	1701858253834
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253834
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253834
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253834
+USER	API Scenario	END	1701858253834
+USER	API Scenario	END	1701858253835
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253835
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253835
+USER	API Scenario	END	1701858253835
+USER	API Scenario	END	1701858253835
+USER	API Scenario	END	1701858253836
+USER	API Scenario	END	1701858253836
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253836
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253836
+USER	API Scenario	END	1701858253836
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253837
+USER	API Scenario	END	1701858253837
+USER	API Scenario	END	1701858253837
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253837
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253838
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253838
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253838
+USER	API Scenario	END	1701858253838
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253838
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253838
+USER	API Scenario	END	1701858253838
+USER	API Scenario	END	1701858253838
+USER	API Scenario	END	1701858253839
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253839
+USER	API Scenario	END	1701858253839
+USER	API Scenario	END	1701858253839
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253839
+USER	API Scenario	END	1701858253839
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253840
+USER	API Scenario	END	1701858253840
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253840
+USER	API Scenario	END	1701858253840
+USER	API Scenario	END	1701858253840
+USER	API Scenario	END	1701858253840
+USER	API Scenario	END	1701858253840
+USER	API Scenario	END	1701858253840
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253841
+USER	API Scenario	END	1701858253841
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253841
+USER	API Scenario	END	1701858253841
+USER	API Scenario	END	1701858253842
+USER	API Scenario	END	1701858253842
+USER	API Scenario	END	1701858253842
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253842
+USER	API Scenario	END	1701858253843
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253843
+USER	API Scenario	END	1701858253843
+USER	API Scenario	END	1701858253844
+USER	API Scenario	END	1701858253844
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253844
+USER	API Scenario	END	1701858253845
+USER	API Scenario	END	1701858253845
+ERROR	Send API Request: Failed to build request: No attribute named 'deviceId' is defined 	1701858253845
+USER	API Scenario	END	1701858253846
+USER	API Scenario	END	1701858253846
+USER	API Scenario	END	1701858253846
+USER	API Scenario	END	1701858253846
+ERROR	Send WebSocket Request: Failed to build request: Couldn't fetch open webSocket 	1701858258851
+USER	WebSocket Scenario	END	1701858263854
