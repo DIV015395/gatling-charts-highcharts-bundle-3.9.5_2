@@ -1,9 +1,12 @@
 package computerdatabase;
+import io.gatling.core.session.package$;
 import io.gatling.javaapi.core.*;
 import io.gatling.javaapi.http.*;
 import static io.gatling.javaapi.core.CoreDsl.*;
 import static io.gatling.javaapi.http.HttpDsl.*;
 
+import java.nio.charset.StandardCharsets;
+import java.util.Base64;
 import java.util.Map;
 
 public class API extends Simulation {
@@ -20,8 +23,7 @@ public class API extends Simulation {
 
 
     ScenarioBuilder apiScenario = scenario("API Scenario")
-            .feed(apiData)
-            .exec(http("Send API Request")
+            .feed(apiData).exec(http("Send API Request")
                     .post("/cometchat_send.php")
                     .headers(Map.of(
                             "X-APP-DEVICE-ID", "${deviceid}",
@@ -31,8 +33,25 @@ public class API extends Simulation {
                     .formParam("localmessageid", "${localMessageId}")
                     .formParam("msg_type", "10")
                     .formParam("to", "${to}")
-                    .formParam("message", "Gatling Script")
-                    .formParam("basedata", "${basedata}").check(status().is(200)));
+                    .formParam("message", "Gatling Script500")
+                    .formParam("basedata", "${basedata}")
+                    .transformResponse((response, session) -> {
+                        if (response.status().code() == 200) {
+                            return new io.gatling.http.response.Response(
+                                    response.request(),
+                                    response.startTimestamp(),
+                                    response.endTimestamp(),
+                                    response.status(),
+                                    response.headers(),
+                                    new io.gatling.http.response.ByteArrayResponseBody(Base64.getDecoder().decode(response.body().string()), StandardCharsets.UTF_8),
+                                    response.checksums(),
+                                    response.isHttp2()
+                            );
+                        } else {
+                            return response;
+                        }
+                    }
+            ));
 
 
     {
