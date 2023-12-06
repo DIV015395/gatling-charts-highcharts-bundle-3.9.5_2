@@ -38,7 +38,8 @@ public class API extends Simulation {
     {
         setUp
                 (
-                        apiScenario.injectOpen(atOnceUsers(170)).protocols(httpProtocol)
+                        apiScenario.injectOpen(rampUsers(1).during(1)).protocols(httpProtocol)
+//                        apiScenario.injectOpen(atOnceUsers(2)).protocols(httpProtocol)
         );
     }
 }
