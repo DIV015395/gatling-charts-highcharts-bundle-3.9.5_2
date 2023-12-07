@@ -1,4 +1,0 @@
-RUN	computerdatabase.API	api	1701926698998	Api load	3.9.5
-USER	API Scenario	START	1701926699974
-REQUEST		Send API Request	1701926699995	1701926700240	KO	j.l.IllegalArgumentException: Illegal base64 character 7b
-USER	API Scenario	END	1701926700254

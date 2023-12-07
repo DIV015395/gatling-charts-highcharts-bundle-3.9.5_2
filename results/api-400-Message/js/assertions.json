@@ -1,0 +1,10 @@
+{
+  "simulation": "computerdatabase.API",
+  "simulationId": "api-20231207095448273",
+  "start": 1701942889106,
+  "description": "Api Load Send Message = 400 request",
+  "scenarios": ["API Scenario"],
+  "assertions": [
+
+  ]
+}

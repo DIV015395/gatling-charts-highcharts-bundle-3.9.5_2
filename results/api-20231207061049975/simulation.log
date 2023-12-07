@@ -1,7 +1,0 @@
-RUN	computerdatabase.API	api	1701929449975	Api load	3.9.5
-USER	API Scenario	START	1701929451037
-USER	API Scenario	START	1701929451037
-REQUEST		Send API Request	1701929451063	1701929451206	KO	jsonPath($.response.payload).find.exists, found nothing
-REQUEST		Send API Request	1701929451063	1701929451206	KO	jsonPath($.response.payload).find.exists, found nothing
-USER	API Scenario	END	1701929451257
-USER	API Scenario	END	1701929451258
