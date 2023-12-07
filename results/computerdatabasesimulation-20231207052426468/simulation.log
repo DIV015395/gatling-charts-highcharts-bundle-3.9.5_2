@@ -1,0 +1,401 @@
+RUN	computerdatabase.ComputerDatabaseSimulation	computerdatabasesimulation	1701926666468	Sockket connect	3.9.5
+USER	WebSocket Scenario	START	1701926667571
+USER	WebSocket Scenario	START	1701926667576
+USER	WebSocket Scenario	START	1701926667592
+USER	WebSocket Scenario	START	1701926667592
+USER	WebSocket Scenario	START	1701926667608
+USER	WebSocket Scenario	START	1701926667624
+USER	WebSocket Scenario	START	1701926667624
+USER	WebSocket Scenario	START	1701926667640
+USER	WebSocket Scenario	START	1701926667655
+USER	WebSocket Scenario	START	1701926667655
+USER	WebSocket Scenario	START	1701926667671
+USER	WebSocket Scenario	START	1701926667671
+USER	WebSocket Scenario	START	1701926667688
+USER	WebSocket Scenario	START	1701926667704
+USER	WebSocket Scenario	START	1701926667704
+USER	WebSocket Scenario	START	1701926667719
+USER	WebSocket Scenario	START	1701926667735
+USER	WebSocket Scenario	START	1701926667735
+USER	WebSocket Scenario	START	1701926667751
+REQUEST		WebSocket Connect	1701926667593	1701926667762	OK	 
+USER	WebSocket Scenario	START	1701926667766
+USER	WebSocket Scenario	START	1701926667766
+REQUEST		WebSocket Connect	1701926667609	1701926667767	OK	 
+REQUEST		Send Request type in Websocket	1701926667773	1701926667773	OK	 
+REQUEST		Send Request type in Websocket	1701926667773	1701926667773	OK	 
+USER	WebSocket Scenario	START	1701926667782
+REQUEST		WebSocket Connect	1701926667589	1701926667782	OK	 
+REQUEST		Send Request type in Websocket	1701926667783	1701926667783	OK	 
+REQUEST		WebSocket Connect	1701926667589	1701926667796	OK	 
+REQUEST		WebSocket Connect	1701926667593	1701926667796	OK	 
+USER	WebSocket Scenario	START	1701926667796
+USER	WebSocket Scenario	START	1701926667796
+REQUEST		Send Request type in Websocket	1701926667796	1701926667796	OK	 
+REQUEST		Send Request type in Websocket	1701926667796	1701926667796	OK	 
+REQUEST		WebSocket Connect	1701926667625	1701926667799	OK	 
+REQUEST		Send Request type in Websocket	1701926667799	1701926667799	OK	 
+REQUEST		WebSocket Connect	1701926667640	1701926667804	OK	 
+REQUEST		WebSocket Connect	1701926667625	1701926667804	OK	 
+REQUEST		Send Request type in Websocket	1701926667805	1701926667805	OK	 
+REQUEST		Send Request type in Websocket	1701926667805	1701926667805	OK	 
+USER	WebSocket Scenario	START	1701926667812
+USER	WebSocket Scenario	START	1701926667827
+USER	WebSocket Scenario	START	1701926667827
+USER	WebSocket Scenario	START	1701926667842
+USER	WebSocket Scenario	START	1701926667857
+USER	WebSocket Scenario	START	1701926667857
+USER	WebSocket Scenario	START	1701926667873
+USER	WebSocket Scenario	START	1701926667873
+USER	WebSocket Scenario	START	1701926667889
+USER	WebSocket Scenario	START	1701926667903
+USER	WebSocket Scenario	START	1701926667903
+USER	WebSocket Scenario	START	1701926667918
+USER	WebSocket Scenario	START	1701926667934
+USER	WebSocket Scenario	START	1701926667934
+USER	WebSocket Scenario	START	1701926667949
+USER	WebSocket Scenario	START	1701926667964
+USER	WebSocket Scenario	START	1701926667964
+USER	WebSocket Scenario	START	1701926667980
+USER	WebSocket Scenario	START	1701926667995
+USER	WebSocket Scenario	START	1701926667995
+USER	WebSocket Scenario	START	1701926668010
+USER	WebSocket Scenario	START	1701926668026
+USER	WebSocket Scenario	START	1701926668026
+USER	WebSocket Scenario	START	1701926668042
+REQUEST		WebSocket Connect	1701926667656	1701926668049	OK	 
+REQUEST		Send Request type in Websocket	1701926668049	1701926668049	OK	 
+USER	WebSocket Scenario	START	1701926668057
+USER	WebSocket Scenario	START	1701926668057
+USER	WebSocket Scenario	START	1701926668073
+USER	WebSocket Scenario	START	1701926668088
+USER	WebSocket Scenario	START	1701926668088
+USER	WebSocket Scenario	START	1701926668104
+USER	WebSocket Scenario	START	1701926668104
+USER	WebSocket Scenario	START	1701926668120
+USER	WebSocket Scenario	START	1701926668135
+USER	WebSocket Scenario	START	1701926668135
+USER	WebSocket Scenario	START	1701926668151
+USER	WebSocket Scenario	START	1701926668166
+USER	WebSocket Scenario	START	1701926668166
+USER	WebSocket Scenario	START	1701926668182
+USER	WebSocket Scenario	START	1701926668197
+USER	WebSocket Scenario	START	1701926668197
+USER	WebSocket Scenario	START	1701926668213
+USER	WebSocket Scenario	START	1701926668228
+USER	WebSocket Scenario	START	1701926668228
+USER	WebSocket Scenario	START	1701926668244
+USER	WebSocket Scenario	START	1701926668244
+USER	WebSocket Scenario	START	1701926668259
+USER	WebSocket Scenario	START	1701926668275
+USER	WebSocket Scenario	START	1701926668275
+USER	WebSocket Scenario	START	1701926668290
+USER	WebSocket Scenario	START	1701926668305
+USER	WebSocket Scenario	START	1701926668305
+USER	WebSocket Scenario	START	1701926668320
+USER	WebSocket Scenario	START	1701926668336
+USER	WebSocket Scenario	START	1701926668336
+USER	WebSocket Scenario	START	1701926668352
+USER	WebSocket Scenario	START	1701926668367
+USER	WebSocket Scenario	START	1701926668367
+USER	WebSocket Scenario	START	1701926668382
+USER	WebSocket Scenario	START	1701926668398
+USER	WebSocket Scenario	START	1701926668398
+USER	WebSocket Scenario	START	1701926668415
+USER	WebSocket Scenario	START	1701926668415
+USER	WebSocket Scenario	START	1701926668429
+USER	WebSocket Scenario	START	1701926668445
+USER	WebSocket Scenario	START	1701926668445
+USER	WebSocket Scenario	START	1701926668460
+USER	WebSocket Scenario	START	1701926668475
+USER	WebSocket Scenario	START	1701926668475
+USER	WebSocket Scenario	START	1701926668490
+USER	WebSocket Scenario	START	1701926668506
+USER	WebSocket Scenario	START	1701926668506
+USER	WebSocket Scenario	START	1701926668522
+USER	WebSocket Scenario	START	1701926668537
+USER	WebSocket Scenario	START	1701926668537
+USER	WebSocket Scenario	START	1701926668553
+USER	WebSocket Scenario	START	1701926668568
+REQUEST		WebSocket Connect	1701926667656	1701926669087	OK	 
+REQUEST		Send Request type in Websocket	1701926669088	1701926669088	OK	 
+REQUEST		WebSocket Connect	1701926667672	1701926670051	OK	 
+REQUEST		Send Request type in Websocket	1701926670052	1701926670052	OK	 
+REQUEST		WebSocket Connect	1701926667672	1701926671071	OK	 
+REQUEST		Send Request type in Websocket	1701926671072	1701926671072	OK	 
+REQUEST		WebSocket Connect	1701926667704	1701926672068	OK	 
+REQUEST		Send Request type in Websocket	1701926672069	1701926672069	OK	 
+USER	WebSocket Scenario	END	1701926672788
+USER	WebSocket Scenario	END	1701926672789
+USER	WebSocket Scenario	END	1701926672789
+USER	WebSocket Scenario	END	1701926672801
+USER	WebSocket Scenario	END	1701926672801
+USER	WebSocket Scenario	END	1701926672801
+USER	WebSocket Scenario	END	1701926672816
+USER	WebSocket Scenario	END	1701926672816
+USER	WebSocket Scenario	END	1701926673064
+REQUEST		WebSocket Connect	1701926667688	1701926673066	OK	 
+REQUEST		Send Request type in Websocket	1701926673067	1701926673067	OK	 
+REQUEST		WebSocket Connect	1701926667704	1701926674060	OK	 
+REQUEST		Send Request type in Websocket	1701926674061	1701926674061	OK	 
+USER	WebSocket Scenario	END	1701926674101
+REQUEST		WebSocket Connect	1701926667720	1701926675058	OK	 
+REQUEST		Send Request type in Websocket	1701926675059	1701926675059	OK	 
+USER	WebSocket Scenario	END	1701926675060
+REQUEST		WebSocket Connect	1701926667735	1701926676080	OK	 
+REQUEST		Send Request type in Websocket	1701926676080	1701926676080	OK	 
+USER	WebSocket Scenario	END	1701926676086
+REQUEST		WebSocket Connect	1701926667735	1701926676088	OK	 
+REQUEST		Send Request type in Websocket	1701926676089	1701926676089	OK	 
+REQUEST		WebSocket Connect	1701926667752	1701926677071	OK	 
+REQUEST		Send Request type in Websocket	1701926677071	1701926677071	OK	 
+USER	WebSocket Scenario	END	1701926677077
+REQUEST		WebSocket Connect	1701926667767	1701926677088	OK	 
+REQUEST		Send Request type in Websocket	1701926677089	1701926677089	OK	 
+REQUEST		WebSocket Connect	1701926667782	1701926677096	OK	 
+REQUEST		Send Request type in Websocket	1701926677096	1701926677096	OK	 
+REQUEST		WebSocket Connect	1701926667771	1701926677100	OK	 
+REQUEST		Send Request type in Websocket	1701926677100	1701926677100	OK	 
+REQUEST		WebSocket Connect	1701926667797	1701926677834	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		WebSocket Connect	1701926667797	1701926677834	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		Send Request type in Websocket	1701926677839	1701926677839	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		Send Request type in Websocket	1701926677839	1701926677839	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		WebSocket Connect	1701926667812	1701926677849	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		Send Request type in Websocket	1701926677850	1701926677850	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		WebSocket Connect	1701926667828	1701926677865	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		WebSocket Connect	1701926667828	1701926677865	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		Send Request type in Websocket	1701926677865	1701926677865	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		Send Request type in Websocket	1701926677865	1701926677865	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		WebSocket Connect	1701926667858	1701926677895	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		WebSocket Connect	1701926667858	1701926677895	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		WebSocket Connect	1701926667843	1701926677895	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		Send Request type in Websocket	1701926677896	1701926677896	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		Send Request type in Websocket	1701926677896	1701926677896	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		Send Request type in Websocket	1701926677896	1701926677896	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		WebSocket Connect	1701926667874	1701926677911	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		WebSocket Connect	1701926667875	1701926677911	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		Send Request type in Websocket	1701926677911	1701926677911	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		Send Request type in Websocket	1701926677911	1701926677911	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		WebSocket Connect	1701926667904	1701926677941	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		WebSocket Connect	1701926667889	1701926677941	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		WebSocket Connect	1701926667904	1701926677941	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		Send Request type in Websocket	1701926677942	1701926677942	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		Send Request type in Websocket	1701926677942	1701926677942	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		Send Request type in Websocket	1701926677942	1701926677942	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		WebSocket Connect	1701926667919	1701926677957	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		Send Request type in Websocket	1701926677958	1701926677958	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		WebSocket Connect	1701926667934	1701926677972	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		WebSocket Connect	1701926667934	1701926677972	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		Send Request type in Websocket	1701926677973	1701926677973	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		Send Request type in Websocket	1701926677973	1701926677973	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		WebSocket Connect	1701926667950	1701926677988	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		Send Request type in Websocket	1701926677988	1701926677988	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		WebSocket Connect	1701926667965	1701926678003	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		WebSocket Connect	1701926667965	1701926678004	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		Send Request type in Websocket	1701926678005	1701926678005	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		Send Request type in Websocket	1701926678005	1701926678005	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		WebSocket Connect	1701926667980	1701926678019	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		Send Request type in Websocket	1701926678020	1701926678020	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		WebSocket Connect	1701926667996	1701926678035	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		WebSocket Connect	1701926667996	1701926678035	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		Send Request type in Websocket	1701926678036	1701926678036	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		Send Request type in Websocket	1701926678036	1701926678036	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		WebSocket Connect	1701926668011	1701926678050	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		Send Request type in Websocket	1701926678051	1701926678051	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		WebSocket Connect	1701926668026	1701926678066	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		WebSocket Connect	1701926668026	1701926678066	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		Send Request type in Websocket	1701926678067	1701926678067	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		Send Request type in Websocket	1701926678068	1701926678068	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+USER	WebSocket Scenario	END	1701926678081
+REQUEST		WebSocket Connect	1701926668058	1701926678110	OK	 
+REQUEST		Send Request type in Websocket	1701926678111	1701926678111	OK	 
+REQUEST		WebSocket Connect	1701926668042	1701926678131	OK	 
+REQUEST		Send Request type in Websocket	1701926678132	1701926678132	OK	 
+REQUEST		WebSocket Connect	1701926668058	1701926678140	OK	 
+REQUEST		Send Request type in Websocket	1701926678141	1701926678141	OK	 
+REQUEST		WebSocket Connect	1701926668089	1701926678157	OK	 
+REQUEST		Send Request type in Websocket	1701926678157	1701926678157	OK	 
+REQUEST		WebSocket Connect	1701926668121	1701926678159	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		Send Request type in Websocket	1701926678160	1701926678160	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		WebSocket Connect	1701926668073	1701926678169	OK	 
+REQUEST		Send Request type in Websocket	1701926678170	1701926678170	OK	 
+REQUEST		WebSocket Connect	1701926668136	1701926678175	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		WebSocket Connect	1701926668136	1701926678175	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		Send Request type in Websocket	1701926678175	1701926678175	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		Send Request type in Websocket	1701926678175	1701926678175	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		WebSocket Connect	1701926668152	1701926678190	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		WebSocket Connect	1701926668089	1701926678190	OK	 
+REQUEST		Send Request type in Websocket	1701926678191	1701926678191	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		Send Request type in Websocket	1701926678191	1701926678191	OK	 
+REQUEST		WebSocket Connect	1701926668105	1701926678197	OK	 
+REQUEST		Send Request type in Websocket	1701926678197	1701926678197	OK	 
+REQUEST		WebSocket Connect	1701926668105	1701926678201	OK	 
+REQUEST		Send Request type in Websocket	1701926678202	1701926678202	OK	 
+REQUEST		WebSocket Connect	1701926668167	1701926678205	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		WebSocket Connect	1701926668167	1701926678205	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		Send Request type in Websocket	1701926678205	1701926678205	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		Send Request type in Websocket	1701926678205	1701926678205	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		WebSocket Connect	1701926668183	1701926678220	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		Send Request type in Websocket	1701926678221	1701926678221	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		WebSocket Connect	1701926668198	1701926678236	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		WebSocket Connect	1701926668198	1701926678236	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		Send Request type in Websocket	1701926678237	1701926678237	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		Send Request type in Websocket	1701926678237	1701926678237	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		WebSocket Connect	1701926668213	1701926678252	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		Send Request type in Websocket	1701926678253	1701926678253	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		WebSocket Connect	1701926668229	1701926678267	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		WebSocket Connect	1701926668229	1701926678267	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		Send Request type in Websocket	1701926678268	1701926678268	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		Send Request type in Websocket	1701926678268	1701926678268	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		WebSocket Connect	1701926668244	1701926678282	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		WebSocket Connect	1701926668244	1701926678282	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		Send Request type in Websocket	1701926678283	1701926678283	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		Send Request type in Websocket	1701926678283	1701926678283	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		WebSocket Connect	1701926668260	1701926678298	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		Send Request type in Websocket	1701926678299	1701926678299	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		WebSocket Connect	1701926668275	1701926678314	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		WebSocket Connect	1701926668275	1701926678314	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		Send Request type in Websocket	1701926678315	1701926678315	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		Send Request type in Websocket	1701926678315	1701926678315	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		WebSocket Connect	1701926668290	1701926678329	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		Send Request type in Websocket	1701926678330	1701926678330	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		WebSocket Connect	1701926668306	1701926678344	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		WebSocket Connect	1701926668306	1701926678344	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		Send Request type in Websocket	1701926678345	1701926678345	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		Send Request type in Websocket	1701926678345	1701926678345	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		WebSocket Connect	1701926668321	1701926678360	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		Send Request type in Websocket	1701926678361	1701926678361	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		WebSocket Connect	1701926668336	1701926678376	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		Send Request type in Websocket	1701926678377	1701926678377	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		WebSocket Connect	1701926668336	1701926678391	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		WebSocket Connect	1701926668353	1701926678391	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		Send Request type in Websocket	1701926678392	1701926678392	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		Send Request type in Websocket	1701926678392	1701926678392	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		WebSocket Connect	1701926668368	1701926678406	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		WebSocket Connect	1701926668368	1701926678406	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		Send Request type in Websocket	1701926678407	1701926678407	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		Send Request type in Websocket	1701926678407	1701926678407	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		WebSocket Connect	1701926668383	1701926678437	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		WebSocket Connect	1701926668399	1701926678437	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		WebSocket Connect	1701926668399	1701926678437	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		Send Request type in Websocket	1701926678437	1701926678437	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		Send Request type in Websocket	1701926678437	1701926678437	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		Send Request type in Websocket	1701926678437	1701926678437	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		WebSocket Connect	1701926668415	1701926678452	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		WebSocket Connect	1701926668416	1701926678452	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		Send Request type in Websocket	1701926678452	1701926678452	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		Send Request type in Websocket	1701926678452	1701926678452	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		WebSocket Connect	1701926668430	1701926678468	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		Send Request type in Websocket	1701926678469	1701926678469	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		WebSocket Connect	1701926668445	1701926678484	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		Send Request type in Websocket	1701926678485	1701926678485	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		WebSocket Connect	1701926668445	1701926678499	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		WebSocket Connect	1701926668461	1701926678499	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		Send Request type in Websocket	1701926678501	1701926678501	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		Send Request type in Websocket	1701926678501	1701926678501	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		WebSocket Connect	1701926668476	1701926678514	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		WebSocket Connect	1701926668476	1701926678514	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		Send Request type in Websocket	1701926678516	1701926678516	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		Send Request type in Websocket	1701926678516	1701926678516	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		WebSocket Connect	1701926668491	1701926678530	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		Send Request type in Websocket	1701926678531	1701926678531	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		WebSocket Connect	1701926668507	1701926678545	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		WebSocket Connect	1701926668507	1701926678545	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		Send Request type in Websocket	1701926678547	1701926678547	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		Send Request type in Websocket	1701926678547	1701926678547	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		WebSocket Connect	1701926668522	1701926678577	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		WebSocket Connect	1701926668538	1701926678577	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		WebSocket Connect	1701926668538	1701926678577	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		Send Request type in Websocket	1701926678578	1701926678578	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		Send Request type in Websocket	1701926678578	1701926678578	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		Send Request type in Websocket	1701926678578	1701926678578	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		WebSocket Connect	1701926668553	1701926678592	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		Send Request type in Websocket	1701926678593	1701926678593	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+REQUEST		WebSocket Connect	1701926668569	1701926678608	KO	i.n.h.s.SslHandshakeTimeoutException: handshake timed out after 10000ms
+REQUEST		Send Request type in Websocket	1701926678609	1701926678609	KO	Client issued text frame but server has closed the WebSocket and max reconnects is reached
+USER	WebSocket Scenario	END	1701926679076
+USER	WebSocket Scenario	END	1701926680073
+USER	WebSocket Scenario	END	1701926681081
+USER	WebSocket Scenario	END	1701926681100
+USER	WebSocket Scenario	END	1701926682082
+USER	WebSocket Scenario	END	1701926682097
+USER	WebSocket Scenario	END	1701926682112
+USER	WebSocket Scenario	END	1701926682112
+USER	WebSocket Scenario	END	1701926682842
+USER	WebSocket Scenario	END	1701926682842
+USER	WebSocket Scenario	END	1701926682858
+USER	WebSocket Scenario	END	1701926682872
+USER	WebSocket Scenario	END	1701926682872
+USER	WebSocket Scenario	END	1701926682904
+USER	WebSocket Scenario	END	1701926682904
+USER	WebSocket Scenario	END	1701926682904
+USER	WebSocket Scenario	END	1701926682919
+USER	WebSocket Scenario	END	1701926682919
+USER	WebSocket Scenario	END	1701926682950
+USER	WebSocket Scenario	END	1701926682950
+USER	WebSocket Scenario	END	1701926682950
+USER	WebSocket Scenario	END	1701926682965
+USER	WebSocket Scenario	END	1701926682981
+USER	WebSocket Scenario	END	1701926682981
+USER	WebSocket Scenario	END	1701926682996
+USER	WebSocket Scenario	END	1701926683012
+USER	WebSocket Scenario	END	1701926683012
+USER	WebSocket Scenario	END	1701926683027
+USER	WebSocket Scenario	END	1701926683043
+USER	WebSocket Scenario	END	1701926683043
+USER	WebSocket Scenario	END	1701926683059
+USER	WebSocket Scenario	END	1701926683075
+USER	WebSocket Scenario	END	1701926683075
+USER	WebSocket Scenario	END	1701926683120
+USER	WebSocket Scenario	END	1701926683136
+USER	WebSocket Scenario	END	1701926683151
+USER	WebSocket Scenario	END	1701926683166
+USER	WebSocket Scenario	END	1701926683166
+USER	WebSocket Scenario	END	1701926683182
+USER	WebSocket Scenario	END	1701926683182
+USER	WebSocket Scenario	END	1701926683182
+USER	WebSocket Scenario	END	1701926683197
+USER	WebSocket Scenario	END	1701926683197
+USER	WebSocket Scenario	END	1701926683213
+USER	WebSocket Scenario	END	1701926683213
+USER	WebSocket Scenario	END	1701926683213
+USER	WebSocket Scenario	END	1701926683213
+USER	WebSocket Scenario	END	1701926683228
+USER	WebSocket Scenario	END	1701926683243
+USER	WebSocket Scenario	END	1701926683243
+USER	WebSocket Scenario	END	1701926683258
+USER	WebSocket Scenario	END	1701926683274
+USER	WebSocket Scenario	END	1701926683274
+USER	WebSocket Scenario	END	1701926683289
+USER	WebSocket Scenario	END	1701926683289
+USER	WebSocket Scenario	END	1701926683305
+USER	WebSocket Scenario	END	1701926683320
+USER	WebSocket Scenario	END	1701926683320
+USER	WebSocket Scenario	END	1701926683335
+USER	WebSocket Scenario	END	1701926683351
+USER	WebSocket Scenario	END	1701926683351
+USER	WebSocket Scenario	END	1701926683366
+USER	WebSocket Scenario	END	1701926683381
+USER	WebSocket Scenario	END	1701926683397
+USER	WebSocket Scenario	END	1701926683397
+USER	WebSocket Scenario	END	1701926683412
+USER	WebSocket Scenario	END	1701926683412
+USER	WebSocket Scenario	END	1701926683443
+USER	WebSocket Scenario	END	1701926683443
+USER	WebSocket Scenario	END	1701926683443
+USER	WebSocket Scenario	END	1701926683459
+USER	WebSocket Scenario	END	1701926683459
+USER	WebSocket Scenario	END	1701926683474
+USER	WebSocket Scenario	END	1701926683489
+USER	WebSocket Scenario	END	1701926683505
+USER	WebSocket Scenario	END	1701926683505
+USER	WebSocket Scenario	END	1701926683520
+USER	WebSocket Scenario	END	1701926683520
+USER	WebSocket Scenario	END	1701926683536
+USER	WebSocket Scenario	END	1701926683552
+USER	WebSocket Scenario	END	1701926683552
+USER	WebSocket Scenario	END	1701926683583
+USER	WebSocket Scenario	END	1701926683583
+USER	WebSocket Scenario	END	1701926683583
+USER	WebSocket Scenario	END	1701926683599
+USER	WebSocket Scenario	END	1701926683614
